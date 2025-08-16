@@ -10,19 +10,23 @@ const SliderForPortfolio = () => {
   const [items, setItems] = useState([
     {
       id: 1,
-      filename: '/src/image_4.jpg',
+      filename: 
+      `${process.env.PUBLIC_URL}/src/image_4.jpg`,
       title: 'Первый элемент',
       description: '10th & O Street Capitol Annex Swing Space',
     },
     {
       id: 2,
-      filename: '/src/image_5.jpg',
+      filename: 
+      `${process.env.PUBLIC_URL}/src/image_5.jpg`,
       title: 'Второй элемент',
       description: '110 East',
     },
     {
       id: 3,
-      filename: '/src/image_6.jpg',
+      filename: 
+      
+      `${process.env.PUBLIC_URL}/src/image_6.jpg`,
       title: 'Третий элемент',
       description: '803 Waimanu',
     },

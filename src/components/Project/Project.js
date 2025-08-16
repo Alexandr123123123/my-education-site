@@ -14,19 +14,23 @@ const Project = () => {
   const [items, setItems] = useState([
     {
       id: 1,
-      filename: '/src/image_9.jpg',
+      filename: 
+      `${process.env.PUBLIC_URL}/src/image_9.jpg`,
+      
       title: 'Первый элемент',
       description: 'Описание первого элемента',
     },
     {
       id: 2,
-      filename: '/src/image_7.jpg',
+      filename: 
+      `${process.env.PUBLIC_URL}/src/image_7.jpg`,
       title: 'Второй элемент',
       description: 'Описание второго элемента',
     },
     {
       id: 3,
-      filename: '/src/image_12.jpg',
+      filename: 
+      `${process.env.PUBLIC_URL}/src/image_12.jpg`,
       title: 'Третий элемент',
       description: 'Описание третьего элемента',
     },
