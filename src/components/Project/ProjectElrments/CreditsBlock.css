@@ -1,0 +1,11 @@
+.credits-block-header {
+  margin: 30px 0px 10px 0px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.credits-block-body {
+  font-size: 17px;
+  color: rgb(64, 64, 66);
+}

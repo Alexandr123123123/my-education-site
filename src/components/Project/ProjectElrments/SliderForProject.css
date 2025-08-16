@@ -1,0 +1,62 @@
+.slider-for-capitol-annex {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1000;
+  background-color: black;
+}
+
+.slider-for-capitol-annex img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5000;
+  background-color: white;
+  mask: url('../../../assets/close.svg') no-repeat center / contain;
+}
+
+.button:hover {
+  background-color: rgb(255, 163, 0);
+}
+
+.button_1 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 5000;
+  mask: url('../../../assets/right_arrow.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+.button_1:hover {
+  background-color: rgb(255, 163, 0);
+}
+
+.button_2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 5000;
+  mask: url('../../../assets/left_arrow.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+.button_2:hover {
+  background-color: rgb(255, 163, 0);
+}

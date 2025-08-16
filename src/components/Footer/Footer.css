@@ -1,0 +1,131 @@
+.footer {
+  width: 100%;
+  color: white;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+}
+.footer-social_media-and-search {
+  display: flex;
+  width: 60%;
+  background-color: rgb(8, 70, 163);
+  padding: 50px 0px 50px 0px;
+}
+.footer-social_media {
+  display: flex;
+  margin-left: 30px;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 0px 10px;
+  background-color: white;
+}
+
+.footer-icon:hover {
+  background-color: rgb(255, 165, 0);
+}
+
+.footer-icon_1 {
+  mask: url('../../assets/icon_1.svg') no-repeat center / contain;
+}
+
+.footer-icon_2 {
+  mask: url('../../assets/icon_2.svg') no-repeat center / contain;
+}
+
+.footer-icon_3 {
+  mask: url('../../assets/icon_3.svg') no-repeat center / contain;
+}
+
+.footer-icon_4 {
+  mask: url('../../assets/icon_4.svg') no-repeat center / contain;
+}
+
+.footer-icon_5 {
+  mask: url('../../assets/icon_5.svg') no-repeat center / contain;
+}
+
+.footer-licenses {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 40px 0px 40px 30px;
+  background-color: rgb(7, 67, 159);
+}
+
+.footer-licenses-container {
+  font-size: 11px;
+  /* margin-bottom: 10px;
+  margin-left: 30px; */
+}
+
+.footer-licenses-block_1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+.footer-licenses-block_2 {
+  padding: 3px 0px 3px 0px;
+}
+
+.footer-licenses-block_3 {
+  margin-top: 7px;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-information {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  padding: 30px 10px 50px 30px;
+  font-size: 12px;
+  background-color: rgb(5, 58, 150);
+}
+
+.footer-vertical-line {
+  width: 1px;
+  height: 80%;
+  margin: 0px 7px 0px 7px;
+  background-color: white;
+}
+
+.footer-site-by {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  padding: 30px 30px 0px 0px;
+  font-size: 11px;
+  background-color: rgb(5, 55, 147);
+}
+
+@media (max-width: 1050px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+  .footer-social_media-and-search {
+    width: 100%;
+  }
+  .footer-licenses {
+    width: 100%;
+  }
+  .footer-information {
+    width: 100%;
+  }
+  .footer-site-by {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}

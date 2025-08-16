@@ -1,0 +1,22 @@
+.related-categories-block {
+  display: flex;
+  margin-top: 30px;
+}
+
+.related-categories-block-item {
+  width: 100px;
+}
+
+.name-categori {
+  padding-bottom: 5px;
+  font-size: 15px;
+  color: rgb(255, 163, 0);
+  font-weight: bold;
+}
+
+.categori {
+  padding: 4px 0px 4px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: rgb(0, 86, 179);
+}

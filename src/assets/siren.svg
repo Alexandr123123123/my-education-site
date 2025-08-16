@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" id="siren">
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M27 29H5v-3c0-1.105.895-2 2-2h18c1.105 0 2 .895 2 2V29zM23 24H9v-8c0-3.866 3.134-7 7-7h0c3.866 0 7 3.134 7 7V24zM16.996 13.17C18.162 13.581 19 14.695 19 16"></path>
+  <line x1="16" x2="16" y1="3" y2="5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></line>
+  <line x1="6.808" x2="8.222" y1="6.808" y2="8.222" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></line>
+  <line x1="25.192" x2="23.778" y1="6.808" y2="8.222" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></line>
+  <line x1="3" x2="5" y1="16" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></line>
+  <line x1="27" x2="29" y1="16" y2="16" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></line>
+</svg>
