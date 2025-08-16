@@ -10,31 +10,32 @@ const Portfolio = () => {
       <div className="projects-container">
         <ProjectCard
           projectName={'110 East'}
-          projectPhoto={'./src/image_6.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_6.jpg`}
         />
         <ProjectCard
           projectName={'803 Waimanu'}
-          projectPhoto={'./src/image_7.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_7.jpg`}
         />
         <ProjectCard
           projectName={'ABIA Consolidated Maintenance Facility'}
-          projectPhoto={'./src/image_8.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_8.jpg`}
         />
         <ProjectCard
           projectName={'Aegis Ashore Pacific Missile Range Facility'}
-          projectPhoto={'./src/image_9.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_9.jpg`}
         />
         <ProjectCard
           projectName={'Aktina Renewable Power Project'}
-          projectPhoto={'./src/image_10.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_10.jpg`}
         />
         <ProjectCard
           projectName={'Alameda County Juvenile Justice Center'}
-          projectPhoto={'./src/image_11.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_11.jpg`}
         />
         <ProjectCard
           projectName={'Anaheim Convention Center Grand Plaza'}
-          projectPhoto={'./src/image_12.jpg'}
+          projectPhoto={`${process.env.PUBLIC_URL}/src/image_12.jpg`}
+          
         />
       </div>
     </div>
