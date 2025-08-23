@@ -3,17 +3,19 @@ import './Main.css'
 
 const Main = () => {
   return (
-    <div className="main-container">
-      <div class="overlay"></div>
-      <div class="content">
-        <div>BUILDING QUALITY.</div>
-        <div>BUILDING VALUE.</div>
-        <div class="othercolor">BUILDING PEOPLE.</div>
+    <div className="landing-main">
+      <div className='landing-main-container'>
+        <div class="landing-main-background-filter"></div>
+        <div class="landing-main-content">
+          <div>BOUWKWALITEIT.</div>
+          <div>BOUWWAARDE.</div>
+          <div class="landing-main-color-modifier-for-content-item">MENSEN BOUWEN.</div>
+        </div>
+        <div class="landing-main-triangle-element"></div>
       </div>
-      <div class="triangle-overlay"></div>
-      <div className='triangle-overlay_1'></div>
     </div>
   )
 }
 
 export default Main
+

@@ -1,0 +1,145 @@
+.landing-team {
+  padding: 30px 0px 0px 0px;
+  background-color: rgb(0, 61, 165);
+}
+
+.landing-team-name {
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffa300;
+}
+
+.landing-team-title {
+  padding: 25px 0px 30px 30px;
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+
+.landing-team-slider-container {
+  position: relative;
+}
+
+.landing-team-slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+}
+
+.landing-team-slider-item {
+  position: relative;
+  flex-shrink: 0;
+  width: 33.33333%;
+  transition: transform 0.8s ease;
+}
+
+.landing-team-slider-item-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.landing-team-slider-item-name-worker {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.landing-team-slider-item-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* buttons */
+
+.landing-team-slider-left-button {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/left_arrow.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+.landing-team-slider-right-button {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/right_arrow.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+@media (max-width: 900px) {
+  .landing-team-slider {
+    height: 350px;
+  }
+}
+
+@media (max-width: 700px) {
+  .landing-team-slider {
+    height: 290px;
+  }
+}
+
+@media (max-width: 600px) {
+  .landing-team {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .landing-team-name {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+
+  .landing-team-title {
+    padding: 20px 0px 30px 15px;
+    font-size: 25px;
+  }
+
+  .landing-team-slider-item {
+    width: 50%;
+  }
+
+  .landing-team-slider {
+    height: 410px;
+  }
+}
+
+@media (max-width: 410px) {
+  .landing-team-slider-item {
+    width: 100%;
+  }
+
+  .landing-team-name {
+    padding-left: 15px;
+    font-size: 12px;
+  }
+
+  .landing-team-title {
+    padding: 20px 0px 30px 15px;
+    font-size: 20px;
+  }
+
+  .landing-team-slider {
+    height: 380px;
+  }
+}

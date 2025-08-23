@@ -1,0 +1,167 @@
+.landing-history-two {
+  position: relative;
+  padding: 190px 0px 150px 30px;
+  background: url('../../../assets/background.jpeg') center / cover no-repeat;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.landing-history-two-filter {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.landing-history-two-container {
+  position: relative;
+}
+
+.landing-history-two-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* text */
+
+.landing-history-two-content-block {
+  width: 40%;
+}
+
+.landing-history-two-name-content-block {
+  padding: 0px 0px 25px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffa300;
+}
+
+.landing-history-two-content-block-title {
+  margin-bottom: 10px;
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+
+.landing-history-two-content-block-body {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+}
+
+.landing-history-two-content-block-button {
+  padding: 18px 24px 18px 24px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #ffa300;
+}
+
+/* video */
+
+.landing-history-two-content-video-flex-container {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 310px;
+}
+
+.landing-history-two-content-video {
+  position: relative;
+  width: 70%;
+  background-color: green;
+}
+
+.landing-history-two-content-video-container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-history-two-content-video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .landing-history-two-content-video {
+    width: 90%;
+  }
+
+  .landing-history-two-content-block-title {
+    font-size: 30px;
+  }
+
+  .landing-history-two-content-block-body {
+    font-size: 17px;
+  }
+
+  .landing-history-two-content-video-flex-container {
+    height: 280px;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-history-two-content-block {
+    width: 50%;
+  }
+  .landing-history-two-content-video-flex-container {
+    width: 50%;
+    height: 230px;
+  }
+  .landing-history-two {
+    padding: 190px 0px 150px 15px;
+  }
+
+  .landing-history-two-content-block-title {
+    font-size: 25px;
+  }
+
+  .landing-history-two-content-block-body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .landing-history-two {
+    padding: 190px 15px 150px 15px;
+  }
+  .landing-history-two-content-container {
+    flex-direction: column-reverse;
+  }
+
+  .landing-history-two-content-block {
+    width: 70%;
+    margin-top: 50px;
+  }
+
+  .landing-history-two-content-video-flex-container {
+    width: 100%;
+    height: 310px;
+  }
+}
+
+@media (max-width: 450px) {
+  .landing-history-two {
+    padding: 150px 15px 120px 15px;
+  }
+  .landing-history-two-content-block {
+    width: 100%;
+  }
+
+  .landing-history-two-content-video-flex-container {
+    width: 100%;
+    height: 210px;
+  }
+}
+
+@media (max-width: 350px) {
+  .landing-history-two-content-video {
+    width: 100%;
+  }
+}

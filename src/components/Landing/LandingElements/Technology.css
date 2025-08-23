@@ -1,0 +1,146 @@
+.landing-technology {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.landing-technology-color-filter {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 7%;
+  height: 100%;
+  background-color: rgba(255, 163, 0, 0.6);
+}
+
+.landing-technology-content-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+/* image */
+
+.landing-technology-content-image {
+  width: 40%;
+  aspect-ratio: 3 / 2;
+  align-self: flex-start;
+}
+
+.landing-technology-content-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* text */
+
+.landing-technology-content-text {
+  width: 40%;
+  margin-left: 70px;
+}
+
+.landing-technology-content-text-name-block {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffa300;
+}
+
+.landing-technology-content-text-title {
+  margin: 25px 0px 10px 0px;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(0, 61, 165);
+}
+
+.landing-technology-content-text-body {
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgb(86, 86, 88);
+}
+
+.landing-technology-content-text-bottom {
+  padding: 18px 24px 18px 24px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 61, 165);
+}
+
+@media (max-width: 1000px) {
+  .landing-technology-content-text {
+    flex-grow: 1;
+    width: 50%;
+    margin-left: 50px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-technology-content-container {
+    flex-direction: column;
+  }
+
+  .landing-technology-content-image {
+    width: 60%;
+    /* доработать соотношение сторон */
+    aspect-ratio: 5 / 2;
+    align-self: flex-start;
+  }
+
+  .landing-technology-content-text {
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 650px) {
+  .landing-technology {
+    padding-top: 30px;
+  }
+
+  .landing-technology-content-image {
+    width: 80%;
+    /* доработать соотношение сторон */
+    aspect-ratio: 5 / 2;
+    align-self: flex-start;
+  }
+
+  .landing-technology-content-text {
+    width: 80%;
+  }
+
+  .landing-technology-content-text {
+    width: 90%;
+    margin-left: 10%;
+  }
+
+  .landing-technology-content-text-bottom {
+    padding: 15px 20px 15px 20px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing-technology {
+    padding-top: 20px;
+  }
+  .landing-technology-content-image {
+    width: 100%;
+  }
+
+  .landing-technology-content-text-name-block {
+    font-size: 14px;
+  }
+
+  .landing-technology-content-text-title {
+    font-size: 25px;
+  }
+
+  .landing-technology-content-text-body {
+    font-size: 14px;
+  }
+}

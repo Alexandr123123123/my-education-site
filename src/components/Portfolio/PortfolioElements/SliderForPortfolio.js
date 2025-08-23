@@ -6,7 +6,7 @@ import { useRef } from 'react'
 import { useEffect } from 'react'
 
 const SliderForPortfolio = () => {
-  const [activeButton, setActiveButton] = useState(0)
+  const [activeButton, setActiveButton] = useState(3)
   const [items, setItems] = useState([
     {
       id: 1,
@@ -40,7 +40,8 @@ const SliderForPortfolio = () => {
             <div
               key={item.id}
               className="slider_for_project-catalog-item"
-              style={{ transform: `translateX(-${activeButton * 100}%)` }}
+              // style={{ transform: `translateX(-${activeButton * 100}%)` }}
+              // style={{ transform: "translateX(50%)" }}
             >
               <img src={item.filename} alt="abc" />
               <div className='portfolio-slider-image-filter'></div>
