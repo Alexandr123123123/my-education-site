@@ -1,0 +1,56 @@
+.what-we-do-title-screen {
+  height: 100vh;
+  background: url('../../../assets/what-we-do.jpg') center / cover no-repeat;
+}
+
+.what-we-do-title-screen-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.what-we-do-title-screen-content-text {
+  position: absolute;
+  left: 30px;
+  bottom: 20%;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .what-we-do-title-screen-content-text {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .what-we-do-title-screen-content-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .what-we-do-title-screen-content-text {
+    left: 15px;
+    bottom: 35%;
+    font-size: 30px;
+  }
+}
+
+@media (max-height: 320px) {
+  .what-we-do-title-screen {
+    height: 320px;
+  }
+
+  .what-we-do-title-screen-content-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-height: 500px) {
+  .what-we-do-title-screen-content-text {
+    bottom: 25%;
+  }
+}

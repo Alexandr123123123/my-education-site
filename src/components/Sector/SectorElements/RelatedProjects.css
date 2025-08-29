@@ -1,0 +1,138 @@
+.sector-related-projects {
+  background-color: rgb(0, 61, 165);
+}
+
+.sector-related-projects-container {
+  padding: 0px 30px 30px 30px;
+}
+
+.sector-related-projects-top-element {
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.sector-related-projects-bottom-element {
+  height: 100px;
+  background-color: white;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+/*  */
+
+.sector-related-projects-name {
+  padding: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+.sector-related-projects-body-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 100px 0px 50px 0px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.sector-related-projects-slogan {
+  font-size: 35px;
+}
+
+/* learn-more */
+
+.sector-related-projects-learn-more-block-container {
+  display: flex;
+  align-items: flex-end;
+  padding: 30px 10px 20px 30px;
+  color: white;
+}
+
+.sector-related-projects-learn-more-block-container:hover
+  .sector-related-projects-learn-more-text {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+}
+
+.sector-related-projects-learn-more-block-container:hover
+  .sector-related-projects-learn-more-arrow {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+.sector-related-projects-learn-more-block {
+  display: flex;
+  align-items: center;
+}
+
+.sector-related-projects-learn-more-text {
+  padding-right: 10px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+.sector-related-projects-learn-more-arrow {
+  height: 25px;
+  width: 25px;
+  mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+/* cards block */
+
+.sector-related-projects-cards-block {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 30px; */
+  padding: 0px 15px 0px 15px;
+}
+
+.sector-related-projects-cards-block-item {
+  width: 33.33%;
+  padding: 1%;
+}
+
+
+
+@media (max-width: 900px) {
+  .sector-related-projects-body-top {
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .sector-related-projects-top-element {
+    height: 50px;
+  }
+
+  .sector-related-projects-bottom-element {
+    height: 50px;
+  }
+  /*  */
+
+  .sector-related-projects-name {
+    font-size: 17px;
+  }
+
+  .sector-related-projects-slogan {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  /* card */
+
+  .sector-related-projects-cards-block-item {
+    width: 100%;
+  }
+
+  .sector-related-projects-learn-more-block-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px 10px 0px 0px;
+  color: white;
+}
+}
+

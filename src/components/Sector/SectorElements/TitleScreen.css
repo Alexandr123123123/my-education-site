@@ -1,0 +1,71 @@
+.sector-title-screen {
+  height: 100vh;
+  background: url('../../../assets/video-system.jpg') center / cover no-repeat;
+}
+
+.sector-title-screen-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sector-title-screen-content-body {
+  position: absolute;
+  left: 30px;
+  bottom: 25%;
+  padding-right: 30px;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.sector-title-screen-content-body-image {
+  width: 100px;
+  height: 100px;
+  mask: url('../../../assets/video-play.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+@media (max-width: 750px) {
+  .sector-title-screen-content-body {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 620px) {
+  .sector-title-screen-content-body {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .sector-title-screen-content-body-image {
+    width: 50px;
+    height: 50px;
+  }
+  .sector-title-screen-content-body {
+    left: 15px;
+    bottom: 35%;
+    font-size: 30px;
+  }
+}
+
+@media (max-height: 320px) {
+  .sector-title-screen {
+    height: 320px;
+  }
+
+  .sector-title-screen-content-body {
+    font-size: 35px;
+  }
+}
+
+@media (max-height: 500px) {
+    .sector-title-screen {
+  height: 500px;
+}
+  .sector-title-screen-content-body {
+    bottom: 25%;
+  }
+}

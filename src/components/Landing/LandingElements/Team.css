@@ -32,7 +32,7 @@
   position: relative;
   flex-shrink: 0;
   width: 33.33333%;
-  transition: transform 0.8s ease;
+  transition: transform 0.5s ease;
 }
 
 .landing-team-slider-item-container {
@@ -115,9 +115,9 @@
     font-size: 25px;
   }
 
-  .landing-team-slider-item {
+  /* .landing-team-slider-item {
     width: 50%;
-  }
+  } */
 
   .landing-team-slider {
     height: 410px;
@@ -125,9 +125,9 @@
 }
 
 @media (max-width: 410px) {
-  .landing-team-slider-item {
+  /* .landing-team-slider-item {
     width: 100%;
-  }
+  } */
 
   .landing-team-name {
     padding-left: 15px;

@@ -3,7 +3,25 @@ import { useState, useEffect } from 'react'
 import './Team.css'
 
 const Team = () => {
+  const handleResize_1 = () => {
+    const w = window.innerWidth
+    if (w >= 600) {
+      if (activeButton > items.length - 3) {
+        return items.length - 3
+      }
+      return 3
+    } else if (w >= 350 && w <= 600) {
+      if (activeButton > items.length - 2) {
+        return items.length - 2
+      }
+      return 2
+    } else {
+      return 1
+    }
+  }
+
   const [activeButton, setActiveButton] = useState(0)
+
   const [items, setItems] = useState([
     {
       id: 1,
@@ -41,14 +59,13 @@ const Team = () => {
       title: 'George Washington',
       description: '10th & O Street Capitol Annex Swing Space',
     },
-    // {
-    //   id: 6,
-    //   filename: `${process.env.PUBLIC_URL}/src/image_6.jpg`,
-    //   title: 'Третий элемент',
-    //   description: '803 Waimanu',
-    // },
   ])
+
   const [activeSlider, setActiveSlider] = useState(3)
+
+  const activeWidth = [0, '100%', '50%', '33.33%']
+
+  // useEffect
 
   useEffect(() => {
     const handleResize = () => {
@@ -58,7 +75,7 @@ const Team = () => {
           setActiveButton(items.length - 3)
         }
         setActiveSlider(3)
-      } else if (w >= 350 && w <= 600) {
+      } else if (w >= 410 && w <= 600) {
         if (activeButton > items.length - 2) {
           setActiveButton(items.length - 2)
         }
@@ -74,6 +91,8 @@ const Team = () => {
     return () => window.removeEventListener('resize', handleResize)
   }, [activeButton, setActiveSlider])
 
+  // useEffect
+
   const leftButton = () => {
     if (activeButton > 0) {
       setActiveButton(activeButton - 1)
@@ -83,6 +102,7 @@ const Team = () => {
   const rightButton = () => {
     if (activeButton < items.length - activeSlider) {
       setActiveButton(activeButton + 1)
+      console.log(activeSlider)
     }
   }
 
@@ -103,9 +123,11 @@ const Team = () => {
           {items.map((item) => (
             <div
               className="landing-team-slider-item"
-              style={{ transform: `translateX(${-activeButton * 100}%)` }}
+              style={{ transform: `translateX(${-activeButton * 100}%)`, width: activeWidth[activeSlider]}}
             >
-              <div className="landing-team-slider-item-container">
+              <div
+                className="landing-team-slider-item-container"
+              >
                 <div className="landing-team-slider-item-name-worker">
                   {item.title}
                 </div>

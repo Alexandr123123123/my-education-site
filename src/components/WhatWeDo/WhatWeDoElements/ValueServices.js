@@ -1,0 +1,66 @@
+import React from 'react'
+import { useState } from 'react'
+import './ValueServices.css'
+import ValueServiceCard from './ValueServiceCard'
+
+const ValueServices = () => {
+  const [items, setItems] = useState([
+    {
+      id: 1,
+      filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
+      title: 'Ontwerp-ondersteuning',
+      description:
+        'Diepgaande expertise die ervoor zorgt dat alle inzichten met betrekking tot de ontwerpintentie van elektrische systemen duidelijk aan alle partijen worden gecommuniceerd.',
+    },
+    {
+      id: 2,
+      filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
+      title: 'Design-Build',
+      description:
+        'Meer dan 50 jaar ervaring in het bedienen van een divers klantenportfolio dankzij deskundige kennis en een sterke focus op innovatie.',
+    },
+    {
+      id: 3,
+      filename: `${process.env.PUBLIC_URL}/src/market-sectors/office.jpg`,
+      title: 'Geïntegreerde projectrealisatie',
+      description:
+        'Rosendin gelooft dat het succes van IPD afhangt van de mensen die het project realiseren, niet van de hulpmiddelen.',
+    },
+
+    {
+      id: 4,
+      filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
+      title: 'Prefabricatie',
+      description:
+        'Een grondige verkenning van hoe en waar prefabricatie de productiviteit van het project, de planning, de arbeidskosten en de efficiëntie van afval kan beïnvloeden.',
+    },
+  ])
+
+  return (
+    <div className="what-we-do-value-services">
+      <div className="what-we-do-value-services-container">
+        <div className="what-we-do-value-services-name">
+          Waarde-toevoegende diensten
+        </div>
+        <div className="what-we-do-value-services-slogan">
+          Complexe projecten vereisen extra aandacht. Rosendin biedt
+          gespecialiseerde waarde-toevoegende diensten aan, die onze
+          kernactiviteiten aanvullen.
+        </div>
+      </div>
+      <div className="what-we-do-value-services-cards-block">
+        {items.map((item) => (
+          <div className="what-we-do-value-services-cards-block-item">
+            <ValueServiceCard
+              serviceNameName={item.title}
+              imagePath={item.filename}
+              description={item.description}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default ValueServices

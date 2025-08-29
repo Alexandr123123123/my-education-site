@@ -1,0 +1,72 @@
+.market-sector-cart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.market-sector-cart-orange-line {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(255, 163, 0);
+}
+/* image */
+.market-sector-cart-image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.market-sector-cart-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.market-sector-cart:hover .market-sector-cart-image-container img {
+  transform: scale(1.2);
+}
+
+/*  */
+
+.market-sector-cart-content {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.market-sector-cart-content:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.market-sector-cart-name-sector {
+  width: 90%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .market-sector-cart-name-sector {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .market-sector-cart-name-sector {
+    font-size: 25px;
+  }
+}

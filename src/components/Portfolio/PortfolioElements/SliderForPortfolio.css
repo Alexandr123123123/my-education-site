@@ -10,15 +10,12 @@
 .slider_for_project-catalog {
   display: inline-flex;
   height: 100%;
-  /* background-color: green; */
-  /* border: 5px solid red; */
 }
 
 .slider_for_project-catalog-item {
   position: relative;
   min-width: 100vw;
   height: 100%;
-  /* transform: translateX(-0%) */
 }
 
 .slider_for_project-catalog-item img {
@@ -66,7 +63,6 @@
   color: white;
   font-family: 'Roboto', Helvetica, sans-serif;
 }
-
 
 .portfolio-slider-project-button {
   display: inline;
@@ -145,6 +141,3 @@
     padding: 15px 20px 15px 20px;
   }
 }
-
-
-

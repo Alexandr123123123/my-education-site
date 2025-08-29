@@ -5,22 +5,22 @@ import './Menu.css'
 const Menu = () => {
   return (
     <div className="menu">
-      <NavLink to="/company" className="menu-item">
+      <NavLink to="/my-education-site/company" className="menu-item">
         COMPANY
       </NavLink>
-      <NavLink to="/what-we-do" className="menu-item">
+      <NavLink to="/my-education-site/what-we-do" className="menu-item">
         WHAT WE DO
       </NavLink>
-      <NavLink to="/portfolio" className="menu-item">
+      <NavLink to="/my-education-site/portfolio" className="menu-item">
         PORTFOLIO
       </NavLink>
-      <NavLink to="/careers" className="menu-item">
+      <NavLink to="/my-education-site/careers" className="menu-item">
         CAREERS
       </NavLink>
-      <NavLink to="/community" className="menu-item">
+      <NavLink to="/my-education-site/community" className="menu-item">
         COMMUNITY
       </NavLink>
-      <NavLink to="/contact-us" className="menu-item">
+      <NavLink to="/my-education-site/contact-us" className="menu-item">
         CONTACT US
       </NavLink>
     </div>

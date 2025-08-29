@@ -1,0 +1,159 @@
+.what-we-do-menu {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  bottom: 0px;
+  width: 400px;
+  height: 100px;
+  color: white;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: rgb(255, 163, 0);
+}
+
+.what-we-do-menu-body {
+  height: 100px;
+  transition: height 0.5s ease;
+  overflow: hidden;
+  background-color: rgb(255, 163, 0);
+}
+
+.what-we-do-menu-body-active {
+  height: 900px;
+}
+
+.what-we-do-menu-body-top {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+}
+
+.what-we-do-menu-body-top-button {
+  width: 35px;
+  height: 25px;
+  margin: 0px 15px 0px 15px;
+}
+
+.what-we-do-menu-body-top-text {
+}
+
+/* content */
+
+.what-we-do-menu-content {
+  display: flex;
+  flex-direction: column;
+  height: 0px;
+  padding: 0px 30px 0px 30px;
+}
+
+.what-we-do-menu-body-item-name-block {
+  padding: 25px 0px 15px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* sector */
+
+.what-we-do-menu-body-items-market-sectors {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-we-do-menu-body-items-market-sectors-left {
+  width: 40%;
+}
+
+.what-we-do-menu-body-items-market-sectors-right {
+  width: 40%;
+}
+
+/* item */
+
+.what-we-do-menu-body-item {
+  padding: 10px 0px 10px 0px;
+  font-size: 17px;
+}
+
+.what-we-do-menu-body-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  /*  */
+
+  .what-we-do-menu {
+    width: 70%;
+    height: 80px;
+  }
+
+  .what-we-do-menu-body-top {
+    height: 80px;
+    font-size: 17px;
+  }
+
+  .what-we-do-menu-body {
+    height: 80px;
+  }
+
+  .what-we-do-menu-body-active {
+    height: 900px;
+  }
+
+  /*  */
+}
+
+@media (max-width: 550px) {
+  .what-we-do-menu-body-active {
+    height: 1160px;
+  }
+  /* sector */
+
+  .what-we-do-menu-body-items-market-sectors {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .what-we-do-menu-body-items-market-sectors-left {
+    width: 100%;
+  }
+
+  .what-we-do-menu-body-items-market-sectors-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .what-we-do-menu-body-active {
+    height: 870px;
+  }
+
+  .what-we-do-menu-content {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* item */
+
+  .what-we-do-menu-body-item-name-block {
+    padding: 20px 0px 15px 0px;
+    font-size: 17px;
+  }
+
+  .what-we-do-menu-body-item {
+    padding: 5px 0px 5px 0px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 350px) {
+  .what-we-do-menu-body-top-text {
+    font-size: 12px;
+}
+  .what-we-do-menu-body-active {
+    height: 920px;
+  }
+}
