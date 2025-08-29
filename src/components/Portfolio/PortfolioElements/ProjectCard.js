@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
           </div>
         </div>
         <div className="project-text">
-          <NavLink to="/company" className="project-card-link">
+          <NavLink to="/my-education-site/careers" className="project-card-link">
             {props.projectName}
           </NavLink>
         </div>

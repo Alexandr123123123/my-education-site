@@ -80,12 +80,12 @@ const MarketSectors = () => {
       </div>
       <div className="what-we-do-market-sectors-body">
         {items.map((item) => (
-          <div className="what-we-do-market-sectors-body-card">
+          <NavLink to="/my-education-site/company" className="what-we-do-market-sectors-body-card">
             <MarketSectorCart
               sectorName={item.title}
               imagePath={item.filename}
             />
-          </div>
+          </NavLink>
         ))}
       </div>
     </div>
