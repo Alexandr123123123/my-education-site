@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/my-education-site/static/css/main.af6dc476.css",
-    "main.js": "/my-education-site/static/js/main.20b1e29f.js",
+    "main.css": "/my-education-site/static/css/main.c9599a9b.css",
+    "main.js": "/my-education-site/static/js/main.231cc7ce.js",
     "static/js/453.eebb8bdc.chunk.js": "/my-education-site/static/js/453.eebb8bdc.chunk.js",
+    "static/media/worker-for-company.jpg": "/my-education-site/static/media/worker-for-company.f634100baa853a1dcae2.jpg",
     "static/media/video-system.jpg": "/my-education-site/static/media/video-system.a1baf87b230d35011d00.jpg",
+    "static/media/company.jpg": "/my-education-site/static/media/company.0725873fefb4d4474db6.jpg",
+    "static/media/community_1.jpg": "/my-education-site/static/media/community_1.863c36f0f2fa2fdd287c.jpg",
+    "static/media/contact.jpg": "/my-education-site/static/media/contact.9824f0ccb4ee64298fdc.jpg",
     "static/media/what-we-do.jpg": "/my-education-site/static/media/what-we-do.4dc221b1ba6d08c3974e.jpg",
+    "static/media/newsroom.jpg": "/my-education-site/static/media/newsroom.c4336f074181613a6b8e.jpg",
     "static/media/abc.jpg": "/my-education-site/static/media/abc.72d7840faa665af16645.jpg",
     "static/media/background.jpeg": "/my-education-site/static/media/background.b84f0c98ccff12a42f3c.jpeg",
     "static/media/arrow-right-circle.svg": "/my-education-site/static/media/arrow-right-circle.c5f8c71e5d32175a319a.svg",
     "static/media/siren.svg": "/my-education-site/static/media/siren.34d8787e9122d506eece.svg",
-    "static/media/video-play.svg": "/my-education-site/static/media/video-play.b4f3b61e7a46c7bf5286.svg",
     "index.html": "/my-education-site/index.html",
+    "static/media/video-play.svg": "/my-education-site/static/media/video-play.b4f3b61e7a46c7bf5286.svg",
     "static/media/cloud-download.svg": "/my-education-site/static/media/cloud-download.af7d232a9c35a54d94b5.svg",
     "static/media/icon_1.svg": "/my-education-site/static/media/icon_1.e5074fe9a03b9705995a.svg",
     "static/media/arrow-right-navigation.svg": "/my-education-site/static/media/arrow-right-navigation.7c34ec64f5a21bdccde1.svg",
     "static/media/icon_4.svg": "/my-education-site/static/media/icon_4.45a79f2eaf80ab3b9430.svg",
     "static/media/icon_5.svg": "/my-education-site/static/media/icon_5.21e7d7f26abe244c1308.svg",
+    "static/media/mark-1.svg": "/my-education-site/static/media/mark-1.4e9b9c2bcbd6c3737c34.svg",
     "static/media/icon_2.svg": "/my-education-site/static/media/icon_2.e8965b4a27406324b7cc.svg",
     "static/media/information.svg": "/my-education-site/static/media/information.b9c7b1c6a5909542f299.svg",
     "static/media/icon_3.svg": "/my-education-site/static/media/icon_3.e5bd256036b90c45a2cb.svg",
@@ -24,12 +30,12 @@
     "static/media/close.svg": "/my-education-site/static/media/close.9369fcd81640316a7084.svg",
     "static/media/right_arrow.svg": "/my-education-site/static/media/right_arrow.8df9a4fa58e1fed1d356.svg",
     "static/media/left_arrow.svg": "/my-education-site/static/media/left_arrow.85035d2ab23894776597.svg",
-    "main.af6dc476.css.map": "/my-education-site/static/css/main.af6dc476.css.map",
-    "main.20b1e29f.js.map": "/my-education-site/static/js/main.20b1e29f.js.map",
+    "main.c9599a9b.css.map": "/my-education-site/static/css/main.c9599a9b.css.map",
+    "main.231cc7ce.js.map": "/my-education-site/static/js/main.231cc7ce.js.map",
     "453.eebb8bdc.chunk.js.map": "/my-education-site/static/js/453.eebb8bdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6dc476.css",
-    "static/js/main.20b1e29f.js"
+    "static/css/main.c9599a9b.css",
+    "static/js/main.231cc7ce.js"
   ]
 }
