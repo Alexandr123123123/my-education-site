@@ -1,0 +1,57 @@
+.company-affiliations {
+  padding: 50px 30px 50px 30px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: rgb(247, 247, 248);
+}
+
+.company-affiliations-body {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(64, 64, 66);
+}
+
+/* left-block */
+
+.company-affiliations-left {
+  width: 40%;
+  padding: 20px;
+}
+
+.company-affiliations-left-name {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+.company-affiliations-left-text {
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+/* right-block */
+
+.company-affiliations-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  overflow: hidden;
+}
+
+.company-affiliations-right-item {
+  padding: 4%;
+  flex-shrink: 0;
+  width: 25%;
+  aspect-ratio: 1 / 1;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translate(-1px, 1px);
+  overflow: hidden;
+}
+
+.company-affiliations-right-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

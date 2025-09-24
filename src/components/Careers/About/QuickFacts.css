@@ -1,0 +1,114 @@
+.careers-quick-facts {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.careers-quick-facts-body{
+  margin: 50px 15px 20px 15px;
+  padding: 0px 30px 0px 30px;
+  position: relative;
+} 
+
+/* buttons */
+
+.careers-quick-facts-body-left-button {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/left_arrow.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.careers-quick-facts-body-left-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+.careers-quick-facts-body-right-button {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/right_arrow.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.careers-quick-facts-body-right-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+/* content */
+
+.careers-quick-facts-body-content {
+  display: flex;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  margin: 30px 0px 30px 0px;
+  overflow: hidden;
+}
+
+.careers-quick-facts-body-content-item {
+  position: relative;
+  flex-shrink: 0;
+  margin: 0 auto;
+  width: 50px;
+  transition: transform 0.5s ease;
+}
+
+.careers-quick-facts-body-content-item-line {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 100;
+  width: 3px;
+  height: 150%;
+  transform: translate(50%, 0);
+  transform: rotate(10deg);
+  background-color: rgb(255, 163, 0);
+}
+
+.careers-quick-facts-body-content-item-top-and-bottom {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.careers-quick-facts-body-content-item-top {
+  font-size: 70px;
+  margin-bottom: 25px;
+  font-weight: 100;
+  font-family: 'Roboto';
+  color: rgb(0, 61, 165);
+}
+
+.careers-quick-facts-body-content-item-bottom {
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgb(64, 64, 66);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+  .careers-quick-facts-content-item-bottom {
+    font-size: 17px;
+  }
+}

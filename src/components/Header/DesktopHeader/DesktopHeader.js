@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <div className={`header ${modeHeader ? 'header-active' : ''}`}>
-      <NavLink to="/" className="header-logo">
+      <NavLink to="/my-education-site" className="header-logo">
         BEAVER
       </NavLink>
       <div className="header-menu-and-contact-information-block">

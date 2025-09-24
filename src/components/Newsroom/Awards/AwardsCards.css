@@ -1,0 +1,100 @@
+.newsroom-awards-cards {
+  background-color: rgb(247, 247, 248);
+}
+
+/* body */
+
+.newsroom-awards-cards-body {
+  overflow: hidden;
+}
+
+.newsroom-awards-cards-body-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -1% 0px -1%;
+}
+
+.newsroom-awards-cards-body-item {
+  width: 33.33%;
+  padding: 1%;
+}
+
+.newsroom-awards-cards-body-item-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px;
+  background-color: white;
+}
+
+.newsroom-awards-cards-body-item-title {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: rgb(64, 64, 66);
+}
+
+.newsroom-awards-cards-body-item-nomination {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(0, 86, 179);
+}
+
+.newsroom-awards-cards-body-item-location-container {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    margin: 20px 0px 40px 0px;
+}
+
+.newsroom-awards-cards-body-item-location {
+    font-size: 12px;
+    color: rgb(64, 64, 66);
+}
+
+.newsroom-awards-cards-body-item-nomination:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* learn-more */
+
+.newsroom-awards-cards-body-item-learn-more-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.newsroom-awards-cards-body-item-learn-more {
+  display: flex;
+  align-items: center;
+}
+
+.newsroom-awards-cards-body-item-learn-more:hover
+  .newsroom-awards-cards-body-item-learn-more-text {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+}
+
+.newsroom-awards-cards-body-item-learn-more:hover
+  .newsroom-awards-cards-body-item-learn-more-arrow {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+.newsroom-awards-cards-body-item-learn-more-text {
+  padding-right: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.newsroom-awards-cards-body-item-learn-more-arrow {
+  height: 20px;
+  width: 20px;
+  mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}

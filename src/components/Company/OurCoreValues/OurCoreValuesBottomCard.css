@@ -1,0 +1,19 @@
+.company-our-core-values-bottom-card {
+  width: 50%;
+}
+
+.company-our-core-values-bottom-card-title-and-text {
+  margin: 30px;
+}
+
+.company-our-core-values-bottom-card-title {
+  font-size: 40px;
+  color: white;
+}
+
+.company-our-core-values-bottom-card-text {
+  padding: 20px 0px 50px 0px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: white;
+}

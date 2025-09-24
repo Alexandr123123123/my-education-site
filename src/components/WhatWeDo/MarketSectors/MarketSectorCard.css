@@ -1,0 +1,77 @@
+.what-we-do-market-sector-card {
+  position: relative;
+  width: 25%;
+  aspect-ratio: 1 / 1;
+  padding: 1%;
+}
+
+.what-we-do-market-sector-card-link {
+
+}
+
+.what-we-do-market-sector-card-orange-line {
+  height: 3px;
+  background-color: rgb(255, 163, 0);
+}
+
+/* image */
+
+.what-we-do-market-sector-card-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.what-we-do-market-sector-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.what-we-do-market-sector-card-layer:hover .what-we-do-market-sector-card-image img {
+  transform: scale(1.2);
+}
+
+/* layer */
+
+.what-we-do-market-sector-card-layer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.what-we-do-market-sector-card-layer:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.what-we-do-market-sector-card-layer-name {
+  width: 90%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+/*  */
+
+@media (max-width: 550px) {
+  .what-we-do-market-sector-card-layer-name {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .what-we-do-market-sector-card-layer-name {
+    font-size: 25px;
+  }
+}

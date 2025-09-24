@@ -1,0 +1,158 @@
+.contact-us-our-locations {
+  display: flex;
+  padding: 30px 30px 100px 30px;
+  background-color: rgb(247, 247, 248);
+}
+
+/* left */
+
+.contact-us-our-locations-left {
+  flex-shrink: 0;
+  width: 70%;
+  padding: 0px 70px 0px 0px;
+}
+
+.contact-us-our-locations-left-name {
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+/* top */
+
+.contact-us-our-locations-left-top {
+  display: flex;
+}
+
+.contact-us-our-locations-left-top-item {
+  flex-grow: 1;
+  padding: 35px 30px 35px 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  border-left: 1px solid white;
+  transition: background-color 0.3s ease;
+  color: white;
+  background-color: rgb(88, 103, 112);
+}
+
+.contact-us-our-locations-left-top-item:first-of-type {
+  border-left: none;
+}
+
+.contact-us-our-locations-left-top-item-active {
+  color: rgb(88, 103, 112);
+  background-color: white;
+}
+
+.contact-us-our-locations-left-top-item:hover {
+  cursor: pointer;
+}
+
+.contact-us-our-locations-left-top-item-active:hover {
+  cursor: auto;
+}
+
+/* body */
+
+.contact-us-our-locations-left-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10px 30px 10px;
+  background-color: white;
+}
+
+.contact-us-our-locations-left-body-item {
+  width: 50%;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact-us-our-locations-left-body-item-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(247, 247, 248);
+}
+
+.contact-us-our-locations-left-body-item-city {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(0, 61, 165);
+}
+
+.contact-us-our-locations-left-body-item-full-city {
+  margin: 15px 0px 15px 0px;
+  font-size: 17px;
+  color: rgb(64, 64, 66);
+}
+
+.contact-us-our-locations-left-body-item-position {
+  display: inline-block;
+  flex-grow: 1;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgb(0, 61, 165);
+}
+
+.contact-us-our-locations-left-body-item-city:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-us-our-locations-left-body-item-position:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* learn-more */
+
+.contact-us-our-locations-left-body-item-learn-more-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-us-our-locations-left-body-item-learn-more {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-us-our-locations-left-body-item-learn-more-text {
+  padding-right: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 61, 165);
+}
+
+.contact-us-our-locations-left-body-item-learn-more-arrow {
+  height: 20px;
+  width: 20px;
+  mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.contact-us-our-locations-left-body-item-learn-more:hover
+  .contact-us-our-locations-left-body-item-learn-more-text {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+}
+
+.contact-us-our-locations-left-body-item-learn-more:hover
+  .contact-us-our-locations-left-body-item-learn-more-arrow {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+/* raight */
+
+.contact-us-our-locations-raight {
+  flex-shrink: 0;
+  width: 30%;
+}

@@ -1,0 +1,56 @@
+.contact-us-title-screen {
+  height: 100vh;
+  background: url('../../../assets/contact.jpg') center / cover no-repeat;
+}
+
+.contact-us-title-screen-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-us-title-screen-content-text {
+  position: absolute;
+  left: 30px;
+  bottom: 20%;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .contact-us-title-screen-content-text {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-us-title-screen-content-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-us-title-screen-content-text {
+    left: 15px;
+    bottom: 35%;
+    font-size: 30px;
+  }
+}
+
+@media (max-height: 320px) {
+  .contact-us-title-screen {
+    height: 320px;
+  }
+
+  .contact-us-title-screen-content-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-height: 500px) {
+  .contact-us-title-screen-content-text {
+    bottom: 25%;
+  }
+}

@@ -1,0 +1,82 @@
+.what-we-do-market-sectors {
+  padding: 30px 30px 30px 30px;
+  background-color: rgb(247, 247, 248);
+}
+
+.what-we-do-market-sectors-name {
+  margin: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+.what-we-do-market-sectors-slogan {
+  width: 850px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+/* body */
+
+.what-we-do-market-sectors-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -1% 0px -1%;
+}
+
+@media (max-width: 1000px) {
+  .what-we-do-market-sectors-slogan {
+    width: 85%;
+    font-size: 35px;
+  }
+
+  /* body */
+
+  .what-we-do-market-sectors-body-card {
+    width: 33.3%;
+    aspect-ratio: 1 / 1;
+    padding: 1%;
+  }
+}
+
+@media (max-width: 750px) {
+  .what-we-do-market-sectors-name {
+    font-size: 17px;
+  }
+
+  .what-we-do-market-sectors-slogan {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  /* body */
+
+  .what-we-do-market-sectors-body-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .what-we-do-market-sectors {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .what-we-do-market-sectors-slogan {
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .what-we-do-market-sectors-slogan {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .what-we-do-market-sectors-body-card {
+    width: 100%;
+  }
+}

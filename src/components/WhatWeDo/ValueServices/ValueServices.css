@@ -1,0 +1,41 @@
+.what-we-do-value-services {
+  padding: 0px 0px 30px 0px;
+  background-color: rgb(247, 247, 248);
+}
+
+.what-we-do-value-services-description {
+  padding: 0px 30px 0px 30px;
+}
+
+/* content */
+
+.what-we-do-value-services-name {
+  padding: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+.what-we-do-value-services-slogan {
+  width: 850px;
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+/* cards-block */
+
+.what-we-do-value-services-cards-container {
+  margin: 0px 30px 0px 30px;
+}
+
+.what-we-do-value-services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -1% 0px -1%;
+}
+
+
+
+

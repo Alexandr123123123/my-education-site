@@ -1,0 +1,116 @@
+.careers-about {
+  background-color: rgb(0, 61, 165);
+}
+
+.careers-about-body {
+  width: 900px;
+  padding: 30px 30px 100px 30px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: #003da5;
+}
+
+.careers-about-body-slogan{
+  margin: 50px 0px 20px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.careers-about-body-title {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+}
+
+.careers-about-body-text-1 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+.careers-about-body-text-2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+.careers-about-body-button {
+  padding: 18px 24px 18px 24px;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background-color: #ffa300;
+}
+
+@media (max-width: 1000px) {
+  .careers-about-content-block {
+    width: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .careers-about-content-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .careers-about-name-content-block {
+    padding: 50px 0px 25px 0px;
+  }
+
+  .careers-about-name-content-block {
+    font-size: 14px;
+  }
+
+  .careers-about-content-block-careers-about-body-slogan{
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .careers-about-content-block {
+    width: 100%;
+  }
+
+  .careers-about-body-text {
+    font-size: 17px;
+  }
+
+  .careers-about-content-block-button {
+    padding: 15px 20px 15px 20px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 450px) {
+  .careers-about-name-content-block {
+    padding: 40px 0px 25px 0px;
+  }
+
+  .careers-about-name-content-block {
+    font-size: 12px;
+  }
+
+  .careers-about-content-block-careers-about-body-slogan{
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .careers-about-content-block {
+    width: 100%;
+  }
+
+  .careers-about-body-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .careers-about-content-block-button {
+    padding: 12px 14px 12px 14px;
+    font-size: 10px;
+  }
+}

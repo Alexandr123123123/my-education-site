@@ -1,0 +1,155 @@
+.careers-employee-spotlights {
+  position: relative;
+  padding: 50px 0px 0px 0px;
+  background-color: rgb(247, 247, 248);
+}
+
+/* service-element */
+
+.service-element {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  z-index: 1;
+  background-color: rgb(0, 61, 165);
+}
+
+/*  */
+
+.careers-employee-spotlights-title {
+  margin: 30px 30px 30px 30px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+/* workers-list */
+
+.careers-employee-spotlights-workers-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.careers-employee-spotlights-workers-list-item {
+  position: relative;
+  flex-shrink: 0;
+  width: 25%;
+  aspect-ratio: 5 / 6;
+  overflow: hidden;
+}
+
+.careers-employee-spotlights-workers-list-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  /* will-change: transform; */
+  /* backface-visibility: hidden; */
+  /* transform: translateZ(0); */
+}
+
+.careers-employee-spotlights-workers-list-item img:hover {
+  transform: scale(1.1);
+}
+
+/* layer_1 */
+
+.careers-employee-spotlights-workers-list-item-layer_1 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.careers-employee-spotlights-workers-list-item-layer_1-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* left */
+
+.careers-employee-spotlights-workers-list-item-name-and-position {
+  color: white;
+}
+
+.careers-employee-spotlights-workers-list-item-name {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.careers-employee-spotlights-workers-list-item-position {
+  font-size: 15px;
+}
+
+/* right */
+
+.careers-employee-spotlights-workers-list-item-button-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.careers-employee-spotlights-workers-list-item-button {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 163, 0);
+}
+
+.careers-employee-spotlights-workers-list-item-button-graphic-element-1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: 2px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(0, 61, 165);
+}
+
+.careers-employee-spotlights-workers-list-item-button-graphic-element-2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+  height: 2px;
+  transform: translate(-50%, -50%) rotate(90deg);
+  background-color: rgb(0, 61, 165);
+}
+
+/* hover */
+
+.careers-employee-spotlights-workers-list-item:hover img {
+  transform: scale(1.1);
+}
+
+.careers-employee-spotlights-workers-list-item:hover
+  .careers-employee-spotlights-workers-list-item-layer_1 {
+  background-color: rgb(0, 0, 0, 0);
+}
+
+.careers-employee-spotlights-workers-list-item:hover
+  .careers-employee-spotlights-workers-list-item-name-and-position {
+  color: rgb(255, 163, 0);
+}
+
+.careers-employee-spotlights-workers-list-item:hover
+  .careers-employee-spotlights-workers-list-item-button-graphic-element-1 {
+  background-color: white;
+}
+
+.careers-employee-spotlights-workers-list-item:hover
+  .careers-employee-spotlights-workers-list-item-button-graphic-element-2 {
+  background-color: white;
+}

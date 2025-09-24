@@ -34,7 +34,7 @@ const MobileHeader = () => {
         className={`mobile-header ${modeMobileHeader * !activeMenu ? 'mobile-header-active' : ''}`}
       >
         <NavLink
-          to="/"
+          to="/my-education-site"
           className="mobile-header-logo"
           // onClick={()=> setActiveMenu(false)}
         >

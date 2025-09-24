@@ -1,0 +1,166 @@
+.community-company-in-action {
+  padding: 50px 30px 30px 30px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.community-company-in-action-name {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+/* top */
+
+.community-company-in-action-top {
+  display: flex;
+  aspect-ratio: 12 / 6;
+  overflow: hidden;
+}
+
+.community-company-in-action-top-item {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+.community-company-in-action-top-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* video arrow */
+
+.community-company-in-action-top-item-top-video-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 163, 0);
+}
+
+.community-company-in-action-top-item-video-arrow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(0 0, 0 100%, 100% 50%);
+  background-color: white;
+}
+
+.community-company-in-action-top-item-top-video-circle:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.community-company-in-action-top-item-top-video-circle:hover
+  .community-company-in-action-top-item-video-arrow {
+  background-color: rgb(255, 163, 0);
+}
+
+/* center */
+
+.community-company-in-action-body-center {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* center-page */
+
+.community-company-in-action-body-center-page {
+  width: 15%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+/* center-line */
+
+.community-company-in-action-body-center-item-line-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.community-company-in-action-body-center-item-line {
+  display: flex;
+  width: 100%;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.community-company-in-action-body-center-item-line-active {
+  width: 33.33%;
+  height: 100%;
+}
+
+.community-company-in-action-body-center-item-line-active_1 {
+  background-color: rgb(255, 163, 0);
+}
+
+/* center-buttons */
+
+.community-company-in-action-body-center-item-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 15%;
+}
+
+.community-company-in-action-left-button {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  mask: url('../../../assets/left_arrow.svg') no-repeat center / contain;
+  background-color: rgb(255, 163, 0);
+}
+
+.community-company-in-action-right-button {
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/right_arrow.svg') no-repeat center / contain;
+  background-color: rgb(255, 163, 0);
+}
+
+.community-company-in-action-left-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 61, 165);
+}
+
+.community-company-in-action-right-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 61, 165);
+}
+
+/* bottom */
+
+.community-company-in-action-body-bottom-container {
+  position: relative;
+  width: 100%;
+  padding: 20px 0px 50px 0px;
+}
+
+.community-company-in-action-body-bottom {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.community-company-in-action-body-bottom-item {
+  flex-shrink: 0;
+  width: 100%;
+  font-size: 20px;
+  line-height: 1.6;
+  transition: transform 0.5s ease;
+  color: rgb(64, 64, 66);
+}

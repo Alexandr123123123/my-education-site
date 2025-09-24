@@ -1,0 +1,27 @@
+.community-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.community-navigation-home {
+  width: 15px;
+  height: 15px;
+  mask: url('../../../assets/home.svg') no-repeat center / contain;
+  background-color: rgb(45, 142, 255);
+}
+
+.community-navigation-arrow {
+  width: 15px;
+  height: 15px;
+  margin: 0px 10px 0px 10px;
+  mask: url('../../../assets/arrow-right-navigation.svg') no-repeat center /
+    contain;
+  background-color: rgb(123, 154, 206);
+}
+
+
+.community-navigation-this-page-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(123, 154, 206);
+}

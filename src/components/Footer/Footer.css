@@ -7,12 +7,14 @@
 .footer-top {
   display: flex;
 }
+
 .footer-social_media-and-search {
   display: flex;
   width: 60%;
   background-color: rgb(8, 70, 163);
   padding: 50px 0px 50px 0px;
 }
+
 .footer-social_media {
   display: flex;
   margin-left: 30px;

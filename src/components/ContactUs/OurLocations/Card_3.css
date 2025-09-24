@@ -1,0 +1,98 @@
+.contact-card_3 {
+  background: url('../../../assets/background.jpeg') center / cover no-repeat;
+}
+
+.contact-card_3-layer {
+  padding: 30px 30px 30px 30px;
+  background-color: rgba(255, 102, 0, 0.7);
+}
+
+.contact-card_3-name {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-card_3-text_1 {
+  margin: 25px 0px 15px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.contact-card_3-text_2 {
+  margin: 20px 0px 20px 0px;
+  font-size: 15px;
+  color: white;
+}
+
+/* area */
+
+.contact-card_3-area {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.contact-card_3-area-text {
+  flex-grow: 1;
+  height: 100%;
+  padding: 15px 15px 15px 15px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.contact-card_3-area-arrow {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.contact-card_3-area-arrow:hover {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+/* social media */
+
+.contact-card_3-social-media {
+  display: flex;
+}
+
+.contact-card_3-social-media-item {
+  width: 25px;
+  height: 25px;
+  margin: 0px 20px 0px 0px;
+  background-color: white;
+}
+
+.contact-card_3-social-media-item:hover {
+  background-color: rgb(0, 61, 165);
+  cursor: pointer;
+}
+
+.contact-card_3-social-media-item_1 {
+  mask: url('../../../assets/icon_1.svg') no-repeat center / contain;
+}
+
+.contact-card_3-social-media-item_2 {
+  mask: url('../../../assets/icon_2.svg') no-repeat center / contain;
+}
+
+.contact-card_3-social-media-item_3 {
+  mask: url('../../../assets/icon_3.svg') no-repeat center / contain;
+}
+
+.contact-card_3-social-media-item_4 {
+  mask: url('../../../assets/icon_4.svg') no-repeat center / contain;
+}
+
+.contact-card_3-social-media-item_5 {
+  mask: url('../../../assets/icon_5.svg') no-repeat center / contain;
+}

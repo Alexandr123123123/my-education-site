@@ -1,0 +1,58 @@
+.community-news {
+  padding: 80px 30px 70px 30px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: rgb(247, 247, 248);
+}
+
+.community-news-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* name */
+
+.community-news-top-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+/* learn-more */
+
+.community-news-top-learn-more-container {
+  
+}
+
+.community-news-learn-more-block {
+  display: flex;
+  align-items: center;
+}
+
+.community-news-learn-more-text {
+  padding-right: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 61, 165);
+}
+
+.community-news-learn-more-arrow {
+  height: 20px;
+  width: 20px;
+  mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.community-news-top-learn-more-container:hover
+  .community-news-learn-more-text {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+}
+
+.community-news-top-learn-more-container:hover
+  .community-news-learn-more-arrow {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}

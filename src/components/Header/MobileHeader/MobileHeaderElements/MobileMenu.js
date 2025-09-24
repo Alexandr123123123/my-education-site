@@ -38,6 +38,9 @@ function MobileMenu() {
       <NavLink to="/my-education-site/community" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
         COMMUNITY
       </NavLink>
+      <NavLink to="/my-education-site/newsroom" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
+        NEWSROOM
+      </NavLink>
       <NavLink to="/my-education-site/contact-us" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
         CONTACT US
       </NavLink>

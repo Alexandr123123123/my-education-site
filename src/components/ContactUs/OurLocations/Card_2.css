@@ -1,0 +1,38 @@
+.contact-card_2 {
+  padding: 30px 30px 30px 30px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.contact-card_2-title {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 163, 0);
+}
+
+.contact-card_2-name {
+  margin: 20px 0px 5px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.contact-card_2-position {
+  margin: 0px 0px 20px 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(64, 64, 66);
+}
+
+.contact-card_2-email {
+  font-size: 18px;
+  text-decoration: underline;
+  color: rgb(0, 61, 165);
+}
+
+.contact-card_2-email:hover {
+  text-decoration: none;
+  cursor: pointer;
+}

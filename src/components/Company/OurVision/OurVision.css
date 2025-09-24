@@ -1,0 +1,54 @@
+.company-our-vision {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: rgb(247, 247, 248);
+}
+
+.company-our-vision-top-element {
+  width: 100%;
+  aspect-ratio: 12 /1;
+  background-color: rgb(247, 247, 248);
+  clip-path: polygon(0 0, 0 100%, 100% 0);
+}
+
+.company-our-vision-bottom-element {
+  width: 100%;
+  aspect-ratio: 12 /1;
+  background-color: rgb(247, 247, 248);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+.company-our-vision-body {
+  display: flex;
+  padding: 30px 30px 30px 30px;
+}
+
+/* left-block */
+
+.company-our-vision-body-left {
+  width: 30%;
+}
+
+.company-our-vision-body-left-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+/* right-block */
+
+.company-our-vision-body-right {
+  width: 60%;
+}
+
+.company-our-vision-body-right-name {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.company-our-vision-body-right-text {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgb(64, 64, 66);
+}

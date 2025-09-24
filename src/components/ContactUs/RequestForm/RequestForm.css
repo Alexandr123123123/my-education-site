@@ -1,0 +1,156 @@
+.contact-request-form {
+  position: relative;
+  padding: 30px 30px 100px 30px;
+  background-color: rgb(0, 61, 165);
+}
+
+.contact-request-form-title {
+  width: 850px;
+  margin: 50px 0px 50px 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+/* body */
+
+.contact-request-form-body {
+  display: flex;
+}
+
+/* left */
+
+.contact-request-form-body-left {
+  width: 30%;
+  padding: 0px 0px 0px 0px;
+}
+
+.contact-request-form-body-left-name {
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(255, 163, 0);
+}
+
+.contact-request-form-body-left-text {
+  font-size: 17px;
+  line-height: 1.6;
+  color: white;
+}
+
+/* right */
+
+.contact-request-form-body-right {
+  width: 70%;
+  padding: 0px 0px 0px 80px;
+}
+
+.contact-request-form-body-right-container_1 {
+  overflow: hidden;
+}
+
+.contact-request-form-body-right-container_2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -0.7% 0px -0.7%;
+}
+
+.contact-request-form-body-right-item {
+  padding: 0.7%;
+}
+
+.contact-request-form-body-right-item input {
+  width: 100%;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.contact-request-form-body-right-item textarea {
+  height: 150px;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 15px 15px 15px 15px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.contact-request-form-body-right-item_1 {
+  width: 100%;
+}
+
+.contact-request-form-body-right-item_2 {
+  width: 50%;
+}
+
+.contact-request-form-body-right-item_3 {
+  width: 50%;
+}
+
+.contact-request-form-body-right-item_4 {
+  width: 50%;
+}
+
+.contact-request-form-body-right-item_5 {
+  width: 50%;
+}
+
+.contact-request-form-body-right-item_6 {
+  width: 100%;
+}
+
+/* click */
+
+.contact-request-form-body-right-click {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px 50px 0px;
+}
+
+.contact-request-form-body-right-click-left {
+  position: relative;
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+}
+
+.contact-request-form-body-right-click-left-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  mask: url('../../../assets/mark-1.svg') no-repeat center / contain;
+  background-color: white;
+}
+
+.contact-request-form-body-right-click-text {
+  font-size: 15px;
+  padding: 0px 0px 0px 10px;
+  color: white;
+}
+
+.contact-request-form-body-right-click-left:hover {
+  cursor: pointer;
+}
+
+/* button */
+
+.contact-request-form-body-right-button {
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(255, 163, 0);
+}
+
+.contact-request-form-body-right-button:hover {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+  background-color: white;
+}

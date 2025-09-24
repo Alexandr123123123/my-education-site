@@ -1,0 +1,120 @@
+.community-bottom-slider {
+  position: relative;
+  padding: 150px 50px 30px 50px;
+}
+
+/* buttons */
+
+.community-bottom-slider-left-button {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/left_arrow.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.community-bottom-slider-right-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  mask: url('../../../assets/right_arrow.svg') no-repeat center / contain;
+  background-color: rgb(0, 61, 165);
+}
+
+.community-bottom-slider-left-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+.community-bottom-slider-right-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 163, 0);
+}
+
+/* body */
+
+.community-bottom-slider-body {
+  display: flex;
+  overflow: hidden;
+}
+
+.community-bottom-slider-body-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+/* left */
+
+.community-bottom-slider-body-left {
+  width: 40%;
+}
+
+.community-bottom-slider-body-left-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 100 / 80;
+}
+
+.community-bottom-slider-body-left-graphic {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+  width: 80%;
+  height: 30%;
+  background-color: rgba(255, 163, 0, 0.5);
+}
+
+.community-bottom-slider-body-left-image {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 90%;
+  aspect-ratio: 20 / 15;
+  overflow: hidden;
+  background-color: orange;
+}
+
+.community-bottom-slider-body-left-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* right */
+
+.community-bottom-slider-body-right {
+  width: 60%;
+  padding: 0px 50px 30px 30px;
+}
+
+.community-bottom-slider-body-right-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 61, 165);
+}
+
+.community-bottom-slider-body-right-name {
+  margin: 30px 0px 5px 0px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(64, 64, 66);
+}
+
+.community-bottom-slider-body-right-position {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(64, 64, 66);
+}
