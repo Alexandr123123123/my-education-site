@@ -3,13 +3,14 @@
   padding: 0px 0px 0px 0px;
   overflow: hidden;
   font-family: 'Roboto', Helvetica, sans-serif;
+  background-color: rgb(247, 247, 248);
 }
 
-.company-quick-facts-body{
+.company-quick-facts-body {
   margin: 50px 15px 20px 15px;
   padding: 0px 30px 0px 30px;
   position: relative;
-} 
+}
 
 /* buttons */
 
@@ -51,7 +52,6 @@
 
 .company-quick-facts-body-content {
   display: flex;
-  width: 100%;
   padding: 10px 0px 10px 0px;
   margin: 30px 0px 30px 0px;
   overflow: hidden;
@@ -96,19 +96,32 @@
   color: rgb(64, 64, 66);
 }
 
+@media (max-width: 750px) {
+  /* content */
 
+  .company-quick-facts-body-content-item-top {
+    font-size: 60px;
+    /* margin-bottom: 25px;
+    font-weight: 100; */
+  }
 
-
-
-
-
-
-
-
-
+  .company-quick-facts-body-content-item-bottom {
+    font-size: 15px;
+    /* line-height: 1.6; */
+  }
+}
 
 @media (max-width: 400px) {
-  .company-quick-facts-content-item-bottom {
-    font-size: 17px;
+  /* content */
+
+  .company-quick-facts-body-content-item-top {
+    font-size: 60px;
+    /* margin-bottom: 25px;
+    font-weight: 100; */
+  }
+
+  .company-quick-facts-body-content-item-bottom {
+    font-size: 15px;
+    /* line-height: 1.6; */
   }
 }

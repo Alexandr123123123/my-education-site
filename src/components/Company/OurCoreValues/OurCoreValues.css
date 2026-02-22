@@ -43,7 +43,6 @@
   padding: 30px;
   flex-shrink: 0;
   width: 33.33%;
-  /* height: 300px; */
 }
 
 .company-our-core-values-content-item-top-1 {
@@ -140,4 +139,26 @@
 
 .company-our-core-values-content-bottom-2 {
   background-color: rgb(0, 61, 165);
+}
+
+@media (max-width: 750px) {
+  .company-our-core-values-content-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .company-our-core-values {
+    padding: 50px 0px 30px 0px;
+  }
+
+  .company-our-core-values-name {
+    margin: 0px 0px 30px 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .company-our-core-values-name {
+    margin: 0px 0px 30px 20px;
+  }
 }

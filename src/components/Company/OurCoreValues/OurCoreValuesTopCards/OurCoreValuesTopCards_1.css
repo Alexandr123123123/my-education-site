@@ -1,0 +1,12 @@
+.company-our-core-values-top-cards_0-body_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-our-core-values-top-cards_0-body_1-item {
+    width: 50%;
+}
+
+.company-our-core-values-top-cards_0-body_1-item-item {
+    height: 50%;
+}

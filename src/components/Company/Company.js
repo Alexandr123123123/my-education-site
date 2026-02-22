@@ -6,12 +6,14 @@ import OurMission from './OurMission/OurMission'
 import OurVision from './OurVision/OurVision'
 import OurCoreValues from './OurCoreValues/OurCoreValues'
 import Affiliations from './Affiliations/Affiliations'
+import QuickFacts from './QuickFacts/QuickFacts'
 
 const Company = () => {
   return (
     <div className="company">
       <TitleScreen />
       <SuccessIsShared />
+      <QuickFacts />
       <OurMission />
       <OurVision />
       <OurCoreValues />

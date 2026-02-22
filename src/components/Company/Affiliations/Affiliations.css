@@ -55,3 +55,48 @@
   height: 100%;
   object-fit: contain;
 }
+
+@media (max-width: 1000px) {
+  .company-affiliations-right-item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 750px) {
+  .company-affiliations-body {
+    flex-direction: column;
+  }
+
+  .company-affiliations-left {
+  width: 300px;
+  padding: 0px;
+}
+
+  .company-affiliations-right {
+    width: 100%;
+  }
+
+  .company-affiliations-right-item {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .company-affiliations-right-item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 380px) {
+  .company-affiliations {
+  padding: 50px 20px 50px 20px;
+}
+}
+@media (max-width: 370px) {
+  .company-affiliations-left {
+  width: 100%;
+}
+  .company-affiliations-right-item {
+    width: 50%;
+  }
+}

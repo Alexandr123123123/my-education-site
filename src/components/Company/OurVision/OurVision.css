@@ -52,3 +52,72 @@
   line-height: 1.6;
   color: rgb(64, 64, 66);
 }
+
+/* --------- */
+
+@media (max-width: 900px) {
+  .company-our-vision-body-right {
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px) {
+  .company-our-vision-body-right-name {
+    font-size: 40px;
+  }
+
+  .company-our-vision-body-right-text {
+    /* margin-top: 20px; */
+    font-size: 20px;
+    /* line-height: 1.6; */
+  }
+}
+
+@media (max-width: 700px) {
+  .company-our-vision-body-left {
+    width: 100%;
+  }
+
+  .company-our-vision-body-right {
+    width: 100%;
+  }
+
+  .company-our-vision-body {
+    flex-direction: column;
+  }
+
+  .company-our-vision-body-left-name {
+    margin: 0px 0px 40px 0px;
+    /* font-size: 25px; */
+  }
+}
+
+@media (max-width: 430px) {
+  .company-our-vision-body-right-name {
+    font-size: 35px;
+  }
+
+  .company-our-vision-body-right-text {
+    /* margin-top: 20px; */
+    font-size: 18px;
+    /* line-height: 1.6; */
+  }
+}
+
+@media (max-width: 380px) {
+  .company-our-vision-body {
+    /* display: flex; */
+    /* margin: 30px 20px 30px 20px; */
+    padding: 30px 20px 30px 20px;
+  }
+
+  .company-our-mission-right-slogan-block {
+    font-size: 30px;
+  }
+
+  .company-our-mission-right-text {
+    /* margin-top: 20px; */
+    font-size: 17px;
+    /* line-height: 1.6; */
+  }
+}

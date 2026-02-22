@@ -17,3 +17,15 @@
   line-height: 1.6;
   color: white;
 }
+
+@media (max-width: 750px) {
+  .company-our-core-values-bottom-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .company-our-core-values-bottom-card-title-and-text {
+  margin: 30px 20px 30px 20px;
+}
+}

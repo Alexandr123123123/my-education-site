@@ -40,13 +40,13 @@
 }
 
 @media (max-width: 1000px) {
-  .success-is-shared-content-block {
-    width: 600px;
+  .success-is-shared-body {
+    width: 700px;
   }
 }
 
-@media (max-width: 800px) {
-  .success-is-shared-content-block {
+@media (max-width: 850px) {
+  .success-is-shared-body {
     width: 100%;
   }
 }
@@ -58,11 +58,6 @@
 
   .success-is-shared-name-content-block {
     font-size: 14px;
-  }
-
-  .success-is-shared-content-block-title {
-    margin-bottom: 10px;
-    font-size: 30px;
   }
 
   .success-is-shared-content-block {
@@ -80,6 +75,9 @@
 }
 
 @media (max-width: 450px) {
+  .success-is-shared-body-title {
+    font-size: 35px;
+  }
   .success-is-shared-name-content-block {
     padding: 40px 0px 25px 0px;
   }
@@ -88,22 +86,19 @@
     font-size: 12px;
   }
 
-  .success-is-shared-content-block-title {
-    margin-bottom: 10px;
-    font-size: 25px;
-  }
-
-  .success-is-shared-content-block {
-    width: 100%;
-  }
-
   .success-is-shared-body-text {
     font-size: 15px;
     margin-bottom: 20px;
   }
 
-  .success-is-shared-content-block-button {
-    padding: 12px 14px 12px 14px;
+  .success-is-shared-body-button {
+    padding: 18px 18px 18px 18px;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .success-is-shared-body-subtitle {
+    font-size: 21px;
   }
 }

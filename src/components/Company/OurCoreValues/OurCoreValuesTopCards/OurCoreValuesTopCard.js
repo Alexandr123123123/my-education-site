@@ -5,7 +5,10 @@ const OurCoreValuesTopCard = (props) => {
   return (
     <div
       className="company-our-core-values-top-card"
-      style={{ backgroundColor: props.cardParams.backgroundColor }}
+      style={{
+        backgroundColor:
+          props.backgroundColor ?? props.cardParams.backgroundColor,
+      }}
     >
       <div className="company-our-core-values-top-card-title-and-text">
         <div className="company-our-core-values-top-card-title">
@@ -19,11 +22,14 @@ const OurCoreValuesTopCard = (props) => {
       </div>
       {/* video */}
       {!(props.cardParams.video === undefined) ? (
-        <div className="company-our-core-values-top-card-video">
-          <img src={props.cardParams.video} alt="abc"></img>
-          <div className="company-our-core-values-top-card-video-layer_1">
-            <div className="company-our-core-values-top-card-video-layer_1-circle">
-              <div className="company-our-core-values-top-card-video-layer_1-arrow"></div>
+        <div>
+          <div className='company-our-core-values-top-card-video-area'></div>
+          <div className="company-our-core-values-top-card-video">
+            <img src={props.cardParams.video} alt="abc"></img>
+            <div className="company-our-core-values-top-card-video-layer_1">
+              <div className="company-our-core-values-top-card-video-layer_1-circle">
+                <div className="company-our-core-values-top-card-video-layer_1-arrow"></div>
+              </div>
             </div>
           </div>
         </div>

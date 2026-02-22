@@ -38,7 +38,7 @@ const QuickFacts = () => {
           setActiveButton(facts.length - 3)
         }
         setActiveSlider(3)
-      } else if (w >= 500 && w <= 1000) {
+      } else if (w >= 550 && w <= 1000) {
         if (activeButton > facts.length - 2) {
           setActiveButton(facts.length - 2)
         }
@@ -102,14 +102,14 @@ const QuickFacts = () => {
                       : 'hidden',
                 }}
               ></div>
-<div className='company-quick-facts-body-content-item-top-and-bottom'>
-              <div className="company-quick-facts-body-content-item-top">
-                {fact.title}
+              <div className="company-quick-facts-body-content-item-top-and-bottom">
+                <div className="company-quick-facts-body-content-item-top">
+                  {fact.title}
+                </div>
+                <div className="company-quick-facts-body-content-item-bottom">
+                  {fact.description}
+                </div>
               </div>
-              <div className="company-quick-facts-body-content-item-bottom">
-                {fact.description}
-              </div>
-</div>
             </div>
           ))}
         </div>

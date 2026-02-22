@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './PhotoAndQuickFacts.css'
-import QuickFacts from './QuickFacts'
+import QuickFacts from '../QuickFacts/QuickFacts'
 
 const PhotoAndQuickFacts = () => {
   return (
@@ -19,9 +19,9 @@ const PhotoAndQuickFacts = () => {
             ></img>
           </div>
         </div>
-        <div className="photo-and-quick-facts-catalog">
+        {/* <div className="photo-and-quick-facts-catalog">
           <QuickFacts />
-        </div>
+        </div> */}
       </div>
     </div>
   )
