@@ -28,55 +28,26 @@
 
 @media (max-width: 1000px) {
   .what-we-do-market-sectors-slogan {
-    width: 85%;
-    font-size: 35px;
-  }
-
-  /* body */
-
-  .what-we-do-market-sectors-body-card {
-    width: 33.3%;
-    aspect-ratio: 1 / 1;
-    padding: 1%;
-  }
+  width: 100%;
+  font-size: 40px;
+}
 }
 
-@media (max-width: 750px) {
-  .what-we-do-market-sectors-name {
-    font-size: 17px;
-  }
-
+@media (max-width: 600px) {
   .what-we-do-market-sectors-slogan {
-    width: 100%;
-    font-size: 30px;
-  }
-
-  /* body */
-
-  .what-we-do-market-sectors-body-card {
-    width: 50%;
-  }
+  font-size: 35px;
+}
 }
 
-@media (max-width: 550px) {
-  .what-we-do-market-sectors {
-    padding: 30px 15px 30px 15px;
-  }
-
+@media (max-width: 500px) {
   .what-we-do-market-sectors-slogan {
-    padding-bottom: 20px;
-    font-size: 25px;
-  }
+  font-size: 30px;
+}
 }
 
 @media (max-width: 400px) {
   .what-we-do-market-sectors-slogan {
-    font-size: 20px;
-  }
+  font-size: 27px;
+}
 }
 
-@media (max-width: 350px) {
-  .what-we-do-market-sectors-body-card {
-    width: 100%;
-  }
-}

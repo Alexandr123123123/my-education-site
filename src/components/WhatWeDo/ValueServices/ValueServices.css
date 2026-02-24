@@ -36,6 +36,29 @@
   margin: 0px -1% 0px -1%;
 }
 
+@media (max-width: 950px) {
+  .what-we-do-value-services-slogan {
+    width: 100%;
+    font-size: 40px;
+  }
+}
 
+@media (max-width: 600px) {
+  .what-we-do-value-services-slogan {
+    padding-bottom: 30px;
+    font-size: 32px;
+  }
+}
 
+@media (max-width: 400px) {
+  .what-we-do-value-services-description {
+    padding: 0px 15px 0px 15px;
+  }
+  .what-we-do-value-services-slogan {
+    font-size: 25px;
+  }
 
+  .what-we-do-value-services-cards-container {
+    margin: 0px 15px 50px 15px;
+  }
+}

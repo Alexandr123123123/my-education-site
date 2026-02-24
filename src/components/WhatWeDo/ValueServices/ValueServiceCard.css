@@ -74,7 +74,7 @@
   position: absolute;
   left: 30px;
   bottom: 30px;
-  display: flex; 
+  display: flex;
 }
 
 .what-we-do-value-service-card-learn-more {
@@ -107,4 +107,39 @@
   width: 25px;
   mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
   background-color: rgb(0, 61, 165);
+}
+
+@media (max-width: 800px) {
+  .what-we-do-value-service-card-container-abc {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .what-we-do-value-service-card-description {
+    padding: 20px 15px 0px 15px;
+  }
+
+  .what-we-do-value-service-card-name {
+    font-size: 30px;
+  }
+
+  .what-we-do-value-service-card-text {
+    /* padding-top: 20px; */
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  /* learn-more */
+
+  .what-we-do-value-service-card-learn-more-container {
+    margin: 20px 15px 30px 15px;
+  }
+
+  .what-we-do-value-service-card-learn-more-container-1 {
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+    display: flex;
+  }
 }

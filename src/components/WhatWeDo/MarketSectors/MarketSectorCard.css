@@ -6,7 +6,6 @@
 }
 
 .what-we-do-market-sector-card-link {
-
 }
 
 .what-we-do-market-sector-card-orange-line {
@@ -30,7 +29,9 @@
   transition: transform 0.3s ease;
 }
 
-.what-we-do-market-sector-card-layer:hover .what-we-do-market-sector-card-image img {
+.what-we-do-market-sector-card-layer:hover
+  .what-we-do-market-sector-card-image
+  img {
   transform: scale(1.2);
 }
 
@@ -64,9 +65,21 @@
 
 /*  */
 
+@media (max-width: 1050px) {
+  .what-we-do-market-sector-card {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 800px) {
+  .what-we-do-market-sector-card {
+    width: 50%;
+  }
+}
+
 @media (max-width: 550px) {
-  .what-we-do-market-sector-card-layer-name {
-    font-size: 16px;
+  .what-we-do-market-sector-card {
+    width: 100%;
   }
 }
 
