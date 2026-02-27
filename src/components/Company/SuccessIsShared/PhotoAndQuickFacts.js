@@ -19,9 +19,6 @@ const PhotoAndQuickFacts = () => {
             ></img>
           </div>
         </div>
-        {/* <div className="photo-and-quick-facts-catalog">
-          <QuickFacts />
-        </div> */}
       </div>
     </div>
   )

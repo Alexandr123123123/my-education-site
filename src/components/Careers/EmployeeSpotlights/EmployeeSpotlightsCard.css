@@ -2,7 +2,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: 3;
+  z-index: 100;
   width: 100%;
   height: 100vh;
   padding: 80px 0px 80px 0px;
@@ -104,7 +104,6 @@
   width: 100%;
   aspect-ratio: 5 / 6;
   overflow: hidden;
-  background-color: green;
 }
 
 .careers-employee-spotlights-card-body-left-image img {
@@ -116,8 +115,8 @@
 /* right */
 
 .careers-employee-spotlights-card-body-right {
+  padding: 0px 0px 0px 30px;
   width: 70%;
-  padding: 0px 30px 0px 30px;
 }
 
 .careers-employee-spotlights-card-body-right-text {
@@ -142,5 +141,83 @@
 .careers-employee-spotlights-card-body-right-location {
   font-size: 16px;
   color: rgb(64, 64, 66);
-  
+}
+
+@media (max-width: 1000px) {
+  .careers-employee-spotlights-card-body {
+    width: 90%;
+  }
+
+  .careers-employee-spotlights-card-body-right-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .careers-employee-spotlights-card-body-right-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .careers-employee-spotlights-card-body {
+    width: 80%;
+  }
+
+  .careers-employee-spotlights-card-body-item {
+    flex-direction: column;
+  }
+
+  .careers-employee-spotlights-card-body-right {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
+  }
+
+  .careers-employee-spotlights-card-body-right-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .careers-employee-spotlights-card-left-button {
+    background-color: rgb(0, 61, 165);
+  }
+
+  .careers-employee-spotlights-card-right-button {
+    background-color: rgb(0, 61, 165);
+  }
+
+  .careers-employee-spotlights-card-body {
+    width: 100%;
+  }
+
+  .careers-employee-spotlights-card-body-left {
+  width: 40%;
+}
+
+  .careers-employee-spotlights-card-body-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .careers-employee-spotlights-card-body-right-text {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 350px) {
+
+  .careers-employee-spotlights-card-body-left {
+  width: 70%;
+}
+
+  .careers-employee-spotlights-card-body-right {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .careers-employee-spotlights-card-body-right-text {
+    font-size: 18px;
+  }
 }

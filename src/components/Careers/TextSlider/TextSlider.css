@@ -97,4 +97,68 @@
   background-color: rgb(255, 163, 0);
 }
 
+@media (max-width: 950px) {
+  .careers-text-slider-body {
+    width: 100%;
+  }
 
+  .careers-text-slider-body-item {
+    width: 100%;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .careers-text-slider-body-item-text {
+    /* margin-bottom: 30px; */
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .careers-text-slider-body-item-text {
+    /* margin-bottom: 30px; */
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 450px) {
+  .careers-text-slider {
+    padding: 50px 30px 50px 30px;
+  }
+
+  .careers-text-slider-left-button {
+    left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .careers-text-slider-right-button {
+    right: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .careers-text-slider-body-item-text {
+    margin-bottom: 20px;
+    font-size: 19px;
+  }
+
+  .careers-text-slider-learn-more-text {
+    font-size: 14px;
+  }
+
+  .careers-text-slider-learn-more-arrow {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .careers-text-slider {
+    padding: 50px 25px 50px 25px;
+  }
+
+  .careers-text-slider-body-item-text {
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+}

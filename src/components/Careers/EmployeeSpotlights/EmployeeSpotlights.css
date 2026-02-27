@@ -12,7 +12,7 @@
   bottom: 0px;
   width: 100%;
   height: 2px;
-  z-index: 1;
+  z-index: 1000;
   background-color: rgb(0, 61, 165);
 }
 
@@ -80,11 +80,12 @@
 /* left */
 
 .careers-employee-spotlights-workers-list-item-name-and-position {
+  padding-right: 20px;
   color: white;
 }
 
 .careers-employee-spotlights-workers-list-item-name {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: bold;
   padding-bottom: 5px;
 }
@@ -152,4 +153,45 @@
 .careers-employee-spotlights-workers-list-item:hover
   .careers-employee-spotlights-workers-list-item-button-graphic-element-2 {
   background-color: white;
+}
+
+@media (max-width: 1200px) {
+
+  .careers-employee-spotlights-workers-list-item-position {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .careers-employee-spotlights-workers-list-item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 850px) {
+  .careers-employee-spotlights-title {
+    font-size: 28px;
+  }
+
+  .careers-employee-spotlights-workers-list-item {
+    width: 50%;
+  }
+  
+  .careers-employee-spotlights-workers-list-item-position {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .careers-employee-spotlights-title {
+    margin: 30px 15px 30px 15px;
+    font-size: 25px;
+  }
+  .careers-employee-spotlights-workers-list-item {
+    width: 100%;
+  }
+
+  .careers-employee-spotlights-workers-list-item-position {
+    font-size: 15px;
+  }
 }

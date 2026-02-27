@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleScreen from './TitleScreen/TitleScreen'
 import About from './About/About'
+import QuickFacts from './QuickFacts/QuickFacts'
 import EmployeeSpotlights from './EmployeeSpotlights/EmployeeSpotlights'
 import CareerPaths from './CareerPaths/CareerPaths'
 import LatestCareerNews from './LatestCareerNewsAndPress/LatestCareerNews'
@@ -11,6 +12,7 @@ const Careers = () => {
     <div className='careers'>
         <TitleScreen/>
         <About/>
+        <QuickFacts/>
         <EmployeeSpotlights/>
         <CareerPaths/>
         <LatestCareerNews/>

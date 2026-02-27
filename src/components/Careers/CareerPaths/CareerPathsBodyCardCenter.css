@@ -1,0 +1,18 @@
+.careers-career-paths-body-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(255, 163, 0);
+}
+
+@media (max-width: 1000px) {
+  .careers-career-paths-body-center {
+    width: 100%;
+    padding: 100px 0px 100px 0px;
+    font-size: 35px;
+  }
+}

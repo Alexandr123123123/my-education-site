@@ -1,0 +1,12 @@
+.careers-career-paths-body_2-item {
+  display: flex;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .careers-career-paths-body_2-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

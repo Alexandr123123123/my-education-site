@@ -58,3 +58,20 @@
   cursor: pointer;
 }
 
+@media (max-width: 950px) {
+  .career-news-cards-cards-body-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .career-news-cards-cards-body-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .career-news-cards-cards-body-item-content {
+    padding: 30px 30px 30px 30px;
+  }
+}

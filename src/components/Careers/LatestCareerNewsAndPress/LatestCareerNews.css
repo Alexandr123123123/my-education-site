@@ -21,7 +21,6 @@
 /* learn-more */
 
 .careers-latest-career-news-top-learn-more-container {
-  
 }
 
 .careers-latest-career-news-learn-more-block {
@@ -55,4 +54,33 @@
   .careers-latest-career-news-learn-more-arrow {
   cursor: pointer;
   background-color: rgb(255, 163, 0);
+}
+
+@media (max-width: 950px) {
+  .careers-latest-career-news-top {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .careers-latest-career-news-top-name {
+    margin-bottom: 50px;
+    /* font-size: 18px; */
+  }
+}
+
+@media (max-width: 450px) {
+  .careers-latest-career-news-top-name {
+    font-size: 16px;
+  }
+
+  .careers-latest-career-news-learn-more-text {
+    /* padding-right: 10px; */
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .careers-latest-career-news {
+    padding: 120px 15px 70px 15px;
+  }
 }
