@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import './QuickFacts.css'
 
 const QuickFacts = () => {
-
   const [facts, setFacts] = useState([
     {
       id: 1,
@@ -13,28 +12,29 @@ const QuickFacts = () => {
     },
     {
       id: 2,
-      title: '$500K',
+      title: '$550K',
       description: 'Our annual contributions to community organizations',
     },
     {
       id: 3,
-      title: '5000',
+      title: '5500',
       description:
         'Total number of annual volunteer hours served by Rosendin employees',
     },
     {
       id: 4,
-      title: '5000',
+      title: '5500',
       description:
         'Total pounds of food donated to shelters across the country annually',
     },
   ])
-const [activeButton, setActiveButton] = useState(0)
+  const [activeButton, setActiveButton] = useState(0)
 
   const [activeSlider, setActiveSlider] = useState(3)
+  const [activeTopElement, setActiveTopElement] = useState(true)
 
   const activeWidth = [0, '100%', '50%', '33.33%']
-
+console.log(activeTopElement)
   useEffect(() => {
     const handleResize1 = () => {
       const w = window.innerWidth
@@ -43,13 +43,21 @@ const [activeButton, setActiveButton] = useState(0)
           setActiveButton(facts.length - 3)
         }
         setActiveSlider(3)
-      } else if (w >= 500 && w <= 1000) {
+      } else if (w >= 550 && w <= 1000) {
         if (activeButton > facts.length - 2) {
           setActiveButton(facts.length - 2)
         }
         setActiveSlider(2)
       } else {
         setActiveSlider(1)
+      }
+
+      if (w <= 850 && (activeTopElement === true)) {
+        setActiveTopElement(false)
+      }
+
+      if (w > 850) {
+        setActiveTopElement(true)
       }
     }
 
@@ -70,10 +78,13 @@ const [activeButton, setActiveButton] = useState(0)
       setActiveButton(activeButton + 1)
     }
   }
-  
+
   return (
     <div className="community-quick-facts">
-      <div className='community-quick-facts-top-element'></div>
+      {activeTopElement  && (
+        <div className="community-quick-facts-top-element"></div>
+      )}
+
       <div className="community-quick-facts-body">
         {/* buttons */}
         <div
@@ -126,5 +137,3 @@ const [activeButton, setActiveButton] = useState(0)
 }
 
 export default QuickFacts
-
-

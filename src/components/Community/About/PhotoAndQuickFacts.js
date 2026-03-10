@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './PhotoAndQuickFacts.css'
-import QuickFacts from './QuickFacts'
+import QuickFacts from '../QuickFacts/QuickFacts'
 
 const PhotoAndQuickFacts = () => {
     const [brands, setBrands] = useState([
@@ -50,9 +50,6 @@ const PhotoAndQuickFacts = () => {
               alt="abc"
             ></img>
           </div>
-        </div>
-        <div className="community-photo-and-quick-facts-catalog">
-          <QuickFacts />
         </div>
       </div>
     </div>

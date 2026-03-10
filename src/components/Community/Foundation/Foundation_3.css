@@ -1,0 +1,19 @@
+.community-foundation_3 {
+ display: flex;
+}
+
+.community-foundation_3-item {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.community-foundation_3-item_1 {
+    background-color: blue;
+    height: 100%;
+}
+
+.community-foundation_3-item img {
+    object-fit: cover;
+    
+}

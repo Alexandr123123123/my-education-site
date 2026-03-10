@@ -2,6 +2,7 @@ import React from 'react'
 import './Community.css'
 import TitleScreen from './TitleScreen/TitleScreen'
 import About from './About/About'
+import QuickFacts from './QuickFacts/QuickFacts'
 import Foundation from './Foundation/Foundation'
 import News from './News/News'
 import CompanyInAction from './CompanyInAction/CompanyInAction'
@@ -13,6 +14,7 @@ const Community = () => {
     <div className='Community'>
         <TitleScreen/>
         <About/>
+        <QuickFacts/>
         <Foundation/>
         <News/>
         <CompanyInAction/>

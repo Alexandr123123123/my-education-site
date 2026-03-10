@@ -1,41 +1,35 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import './Foundation.css'
+import Foundation_1 from './Foundation_1'
+import Foundation_2 from './Foundation_2'
+import Foundation_3 from './Foundation_3'
 
 const Foundation = () => {
+  const [screen, setScreen] = useState(getScreenType())
+  
+    function getScreenType() {
+      const width = window.innerWidth
+  
+      if (width <= 750) return 1
+      return 0
+    }
+  
+    useEffect(() => {
+      const handleResize = () => {
+        setScreen(getScreenType())
+      }
+  
+      window.addEventListener('resize', handleResize)
+      return () => window.removeEventListener('resize', handleResize)
+    }, [])
+
+
+
   return (
-    <div className="community-foundation">
-      <div className="community-foundation-content-container">
-        <div className="community-foundation-body">
-          {/* left */}
-          <div className="community-foundation-body-left">
-            <img
-              src={`${process.env.PUBLIC_URL}/src/foundation.png`}
-              alt="abc"
-            ></img>
-          </div>
-          {/* right */}
-          <div className="community-foundation-body-right">
-            <div className="community-foundation-body-right-container">
-              <div className="community-foundation-body-right-title">
-                Impact. Versterk. Inspireer.
-              </div>
-              <div className="community-foundation-body-right-text">
-                De Rosendin Foundation (
-                <span className="community-foundation-body-right-text-link">
-                  www.therosendinfoundation.org
-                </span>
-                ) is opgericht om een positieve impact te hebben op
-                gemeenschappen, mensen te versterken en innovatie te inspireren.
-              </div>
-              <button className="community-foundation-body-right-bottom">
-                MEER WETEN
-              </button>
-            </div>
-          </div>
-          {/*  */}
-        </div>
-      </div>
-      <div className="community-foundation-line"></div>
+    <div>
+      {screen === 0 ? <Foundation_1/> : <Foundation_2/>}
+      
     </div>
   )
 }

@@ -21,7 +21,6 @@
 /* learn-more */
 
 .community-news-top-learn-more-container {
-  
 }
 
 .community-news-learn-more-block {
@@ -45,8 +44,7 @@
   background-color: rgb(0, 61, 165);
 }
 
-.community-news-top-learn-more-container:hover
-  .community-news-learn-more-text {
+.community-news-top-learn-more-container:hover .community-news-learn-more-text {
   cursor: pointer;
   color: rgb(255, 163, 0);
 }
@@ -55,4 +53,21 @@
   .community-news-learn-more-arrow {
   cursor: pointer;
   background-color: rgb(255, 163, 0);
+}
+
+@media (max-width: 750px) {
+  .community-news-top {
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.community-news-top-name {
+  padding-bottom: 50px;
+}
+}
+
+@media (max-width: 400px) {
+  .community-news {
+    padding: 80px 15px 70px 15px;
+  }
 }

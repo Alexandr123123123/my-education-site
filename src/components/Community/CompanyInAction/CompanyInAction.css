@@ -164,3 +164,52 @@
   transition: transform 0.5s ease;
   color: rgb(64, 64, 66);
 }
+
+@media (max-width: 500px) {
+  .community-company-in-action-top {
+    aspect-ratio: 12 / 8;
+  }
+
+  .community-company-in-action {
+    padding: 50px 15px 30px 15px;
+  }
+
+  .community-company-in-action-top-item-top-video-circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .community-company-in-action-top-item-video-arrow {
+    width: 17px;
+    height: 17px;
+  }
+
+  .community-company-in-action-body-center {
+    justify-content: space-between;
+  }
+
+  .community-company-in-action-left-button {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.community-company-in-action-right-button {
+  width: 25px;
+  height: 25px;
+}
+
+  .community-company-in-action-body-center-item-line-container {
+    width: 50%;
+  }
+
+  .community-company-in-action-body-bottom {
+    width: 100%;
+    /* padding: 0px 15px 0px 15px; */
+  }
+
+  .community-company-in-action-body-bottom-item {
+    font-size: 17px;
+    padding: 0px 10px 0px 10px;
+  }
+}
