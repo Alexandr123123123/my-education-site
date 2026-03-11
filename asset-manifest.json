@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-education-site/static/css/main.8c043bee.css",
-    "main.js": "/my-education-site/static/js/main.3b5637c7.js",
+    "main.css": "/my-education-site/static/css/main.b59c478c.css",
+    "main.js": "/my-education-site/static/js/main.1f3a0e10.js",
     "static/js/453.eebb8bdc.chunk.js": "/my-education-site/static/js/453.eebb8bdc.chunk.js",
     "static/media/worker-for-company.jpg": "/my-education-site/static/media/worker-for-company.f634100baa853a1dcae2.jpg",
     "static/media/video-system.jpg": "/my-education-site/static/media/video-system.a1baf87b230d35011d00.jpg",
@@ -30,12 +30,12 @@
     "static/media/close.svg": "/my-education-site/static/media/close.0d1ad749f1882c9bae69.svg",
     "static/media/right_arrow.svg": "/my-education-site/static/media/right_arrow.a61a81adaf18ae8f9841.svg",
     "static/media/left_arrow.svg": "/my-education-site/static/media/left_arrow.25c7fb164adb7f4b5664.svg",
-    "main.8c043bee.css.map": "/my-education-site/static/css/main.8c043bee.css.map",
-    "main.3b5637c7.js.map": "/my-education-site/static/js/main.3b5637c7.js.map",
+    "main.b59c478c.css.map": "/my-education-site/static/css/main.b59c478c.css.map",
+    "main.1f3a0e10.js.map": "/my-education-site/static/js/main.1f3a0e10.js.map",
     "453.eebb8bdc.chunk.js.map": "/my-education-site/static/js/453.eebb8bdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c043bee.css",
-    "static/js/main.3b5637c7.js"
+    "static/css/main.b59c478c.css",
+    "static/js/main.1f3a0e10.js"
   ]
 }
