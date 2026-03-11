@@ -40,6 +40,7 @@
 
 .newsroom-email-card-area-text {
   flex-grow: 1;
+  min-width: 0px;
   height: 100%;
   padding: 15px 15px 15px 15px;
   font-size: 18px;
@@ -48,8 +49,8 @@
 }
 
 .newsroom-email-card-area-arrow {
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin-right: 10px;
   mask: url('../../../assets/arrow-right-circle.svg') no-repeat center / contain;
   background-color: rgb(0, 61, 165);
@@ -96,4 +97,25 @@
 
 .newsroom-email-card-social-media-item_5 {
   mask: url('../../../assets/icon_5.svg') no-repeat center / contain;
+}
+
+
+@media (max-width: 600px) {
+  .newsroom-email-card-layer {
+  padding: 30px 15px 30px 15px;
+}
+
+ .newsroom-email-card-name {
+  font-size: 14px;
+}
+
+.newsroom-email-card-text_1 {
+  margin: 15px 0px 15px 0px;
+  font-size: 16px;
+}
+
+.newsroom-email-card-text_2 {
+  margin: 20px 0px 20px 0px;
+  font-size: 15px;
+}
 }

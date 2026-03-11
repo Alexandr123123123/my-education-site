@@ -21,7 +21,6 @@
 /* learn-more */
 
 .newsroom-awards-top-learn-more-container {
-  
 }
 
 .newsroom-awards-learn-more-block {
@@ -55,4 +54,21 @@
   .newsroom-awards-learn-more-arrow {
   cursor: pointer;
   background-color: rgb(255, 163, 0);
+}
+
+@media (max-width: 750px) {
+  .newsroom-awards-top {
+    flex-direction: column;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .newsroom-awards-top-name {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .newsroom-awards {
+    padding: 20px 15px 70px 15px;
+  }
 }

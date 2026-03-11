@@ -11,7 +11,7 @@
 
 .newsroom-media-contacts-body-left {
   flex-basis: 50%;
-  min-width: 610px;
+  min-width: 500px;
   padding: 0px 50px 0px 0px;
 }
 
@@ -30,6 +30,8 @@
 .newsroom-media-contacts-body-left-card-image {
   display: flex;
   width: 30%;
+  min-width: 150px;
+  max-width: 200px;
   aspect-ratio: 1 / 1;
   border-left: 3px solid rgb(255, 163, 0);
   overflow: hidden;
@@ -119,4 +121,95 @@
 .newsroom-media-contacts-body-right-links-item:hover {
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 950px) {
+  .newsroom-media-contacts-body {
+    flex-direction: column;
+  }
+
+  .newsroom-media-contacts-body-left {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .newsroom-media-contacts-body-right-name {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsroom-media-contacts-body-left {
+    flex-basis: 100%;
+    min-width: auto;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .newsroom-media-contacts-body-left-card {
+    flex-direction: column;
+  }
+
+  .newsroom-media-contacts-body-left-card-image-container {
+    padding: 30px 30px 0px 30px;
+  }
+
+  .newsroom-media-contacts-body-left-card-image {
+    display: flex;
+    width: 100%;
+    min-width: 0px;
+    max-width: 200px;
+  }
+
+  .newsroom-media-contacts-body-left-card-contacts {
+    padding: 20px 20px 30px 20px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .newsroom-media-contacts {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .newsroom-media-contacts-body-left-card-image {
+    display: flex;
+    width: 100%;
+    min-width: 0px;
+    max-width: 1000px;
+    margin: 0;
+  }
+
+  .newsroom-media-contacts-body-right-name {
+    padding: 30px 30px 20px 0px;
+    font-size: 20px;
+  }
+
+  .newsroom-media-contacts-body-right-links {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .newsroom-media-contacts-body-right-links-name {
+    font-size: 16px;
+  }
+
+  .newsroom-media-contacts-body-right-links-item-image {
+    height: 20px;
+    width: 20px;
+  }
+
+  .newsroom-media-contacts-body-right-links-item {
+    padding: 7px 0px 7px 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .newsroom-media-contacts-body-left-card-contacts {
+    padding: 10px 30px 30px 30px;
+    margin: 0;
+  }
+
+  .newsroom-media-contacts-body-left-card-email {
+  font-size: 15px;
+}
+
 }

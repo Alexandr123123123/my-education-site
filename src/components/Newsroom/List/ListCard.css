@@ -58,3 +58,42 @@
   cursor: pointer;
 }
 
+@media (max-width: 1050px) {
+  .newsroom-list-card-cards-body-item-nomination {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 950px) {
+  .newsroom-list-card-cards-body-item {
+    width: 50%;
+  }
+
+  .newsroom-list-card-cards-body-item-nomination {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 750px) {
+  
+
+  .newsroom-list-card-cards-body-item-nomination {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newsroom-list-card-cards-body-item {
+    width: 100%;
+  }
+
+  .newsroom-list-card-cards-body-item-nomination {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 400px) {
+  .newsroom-list-card-cards-body-item-nomination {
+    font-size: 24px;
+  }
+}

@@ -29,11 +29,13 @@ const MediaContacts = () => {
           </div>
           {/* card */}
           <div className="newsroom-media-contacts-body-left-card">
-            <div className="newsroom-media-contacts-body-left-card-image">
-              <img
-                src={`${process.env.PUBLIC_URL}/src/workers/president_1.jpg`}
-                alt="abc"
-              ></img>
+            <div className="newsroom-media-contacts-body-left-card-image-container">
+              <div className="newsroom-media-contacts-body-left-card-image">
+                <img
+                  src={`${process.env.PUBLIC_URL}/src/workers/president_1.jpg`}
+                  alt="abc"
+                ></img>
+              </div>
             </div>
             {/* card-right */}
             <div className="newsroom-media-contacts-body-left-card-contacts">
