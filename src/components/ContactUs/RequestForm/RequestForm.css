@@ -5,9 +5,9 @@
 }
 
 .contact-request-form-title {
-  width: 850px;
+  width: 100%;
   margin: 50px 0px 50px 0px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: white;
 }
@@ -153,4 +153,105 @@
   cursor: pointer;
   color: rgb(255, 163, 0);
   background-color: white;
+}
+
+@media (max-width: 750px) {
+  .contact-request-form-title {
+    margin: 30px 0px 40px 0px;
+    font-size: 27px;
+  }
+
+  .contact-request-form-body-left {
+    width: 40%;
+  }
+
+  .contact-request-form-body-left-name {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .contact-request-form-body-left-text {
+    font-size: 15px;
+  }
+
+  .contact-request-form-body-right {
+    width: 60%;
+    min-width: 400px;
+    padding: 0px 0px 0px 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-request-form-title {
+    margin: 30px 0px 40px 0px;
+    font-size: 24px;
+  }
+
+  .contact-request-form-body {
+    flex-direction: column;
+  }
+
+  .contact-request-form-body-left {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px 0px 10px 0px;
+  }
+
+  .contact-request-form-body-right {
+    width: 100%;
+    min-width: 0;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-request-form {
+    padding: 30px 15px 70px 15px;
+  }
+
+  .contact-request-form-title {
+    margin: 30px 0px 25px 0px;
+    font-size: 20px;
+  }
+
+  .contact-request-form-body-left {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  .contact-request-form-body-right-item_2 {
+    width: 100%;
+  }
+
+  .contact-request-form-body-right-item_3 {
+    width: 100%;
+  }
+
+  .contact-request-form-body-right-item_4 {
+    width: 100%;
+  }
+
+  .contact-request-form-body-right-item_5 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-request-form-title {
+    margin: 30px 0px 25px 0px;
+    font-size: 18px;
+  }
+
+  .contact-request-form-body-left-name {
+    font-size: 18px;
+  }
+
+  .contact-request-form-body-left-text {
+    font-size: 15px;
+  }
+
+  .contact-request-form-body-right-item input {
+    font-size: 14px;
+  }
 }

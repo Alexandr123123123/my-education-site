@@ -36,3 +36,16 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .contact-card_2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-card_2-email {
+  font-size: 15px;
+}
+}
+

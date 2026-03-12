@@ -7,8 +7,7 @@
 /* left */
 
 .contact-us-our-locations-left {
-  flex-shrink: 0;
-  width: 70%;
+  flex: 1;
   padding: 0px 70px 0px 0px;
 }
 
@@ -27,7 +26,7 @@
 
 .contact-us-our-locations-left-top-item {
   flex-grow: 1;
-  padding: 35px 30px 35px 30px;
+  padding: 35px 15px 35px 15px;
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -153,6 +152,163 @@
 /* raight */
 
 .contact-us-our-locations-raight {
+  display: flex;
+  flex-direction: column;
   flex-shrink: 0;
   width: 30%;
+  min-width: 300px;
+}
+
+@media (max-width: 1100px) {
+  .contact-us-our-locations-left {
+    padding: 0px 40px 0px 0px;
+  }
+
+  .contact-us-our-locations-left-top-item {
+    padding: 30px 15px 30px 15px;
+    font-size: 14px;
+  }
+
+  .contact-us-our-locations-left-body-item-container {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-city {
+    font-size: 19px;
+  }
+
+  .contact-us-our-locations-left-body-item-full-city {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-position {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-us-our-locations {
+    flex-direction: column;
+  }
+
+  .contact-us-our-locations-left {
+    padding: 0px 0px 30px 0px;
+  }
+
+  .contact-us-our-locations-left-top-item {
+    padding: 35px 15px 35px 15px;
+    font-size: 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-container {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .contact-us-our-locations-left-body-item-city {
+    font-size: 21px;
+  }
+
+  .contact-us-our-locations-left-body-item-full-city {
+    margin: 15px 0px 15px 0px;
+    font-size: 17px;
+  }
+
+  .contact-us-our-locations-left-body-item-position {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .contact-us-our-locations-raight {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contact-us-our-locations-left-top-item {
+    padding: 30px 15px 30px 15px;
+    font-size: 14px;
+  }
+
+  .contact-us-our-locations-left-body-item-container {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-city {
+    font-size: 19px;
+  }
+
+  .contact-us-our-locations-left-body-item-full-city {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-position {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact-us-our-locations-left-top {
+    flex-wrap: wrap;
+  }
+
+  .contact-us-our-locations-left-top-item {
+    width: 50%;
+    padding: 35px 15px 35px 15px;
+    font-size: 15px;
+  }
+
+  .contact-us-our-locations-left-body-item {
+    width: 100%;
+  }
+
+  .contact-us-our-locations-left-body-item-container {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .contact-us-our-locations-left-body-item-city {
+    font-size: 21px;
+  }
+
+  .contact-us-our-locations-left-body-item-full-city {
+    margin: 15px 0px 15px 0px;
+    font-size: 17px;
+  }
+
+  .contact-us-our-locations-left-body-item-position {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-us-our-locations {
+    padding: 30px 15px 100px 15px;
+  }
+
+  .contact-us-our-locations-left-top-item {
+    padding: 30px 15px 30px 15px;
+    font-size: 14px;
+  }
+
+  .contact-us-our-locations-left-body-item-container {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-city {
+    font-size: 19px;
+  }
+
+  .contact-us-our-locations-left-body-item-full-city {
+    margin: 10px 0px 10px 0px;
+    font-size: 15px;
+  }
+
+  .contact-us-our-locations-left-body-item-position {
+    margin-bottom: 15px;
+  }
 }
