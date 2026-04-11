@@ -8,7 +8,15 @@ import ScrollToTop from './ScrollToTop'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Landing from './components/Landing/Landing'
+// -----
 import Project from './components/Project/Project'
+import Project_1 from './components/Project/Projects/Project_1'
+import Project_2 from './components/Project/Projects/Project_2'
+import Project_3 from './components/Project/Projects/Project_3'
+import Project_4 from './components/Project/Projects/Project_4'
+import Project_5 from './components/Project/Projects/Project_5'
+import Project_6 from './components/Project/Projects/Project_6'
+// -----
 import Portfolio from './components/Portfolio/Portfolio'
 import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 import Sector from './components/Sector/Sector'
@@ -44,7 +52,15 @@ function App() {
             <Route path="community" element={<Community />} />
             <Route path="newsroom" element={<Newsroom />} />
             <Route path="contact-us" element={<ContactUs />} />
-            <Route path="project" element={<Project />} />
+            {/* projects */}
+            <Route path="110-east" element={<Project />} />
+            <Route path="lescluzestraat" element={<Project_1 />} />
+            <Route path="boudewijn" element={<Project_2 />} />
+            <Route path="edegem" element={<Project_3 />} />
+            <Route path="potter" element={<Project_4 />} />
+            <Route path="heideland" element={<Project_5 />} />
+            <Route path="oogststraat" element={<Project_6 />} />
+            {/*  */}
           </Route>
         </Routes>
       </Router>

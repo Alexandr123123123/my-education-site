@@ -154,8 +154,9 @@ const Organizations = () => {
     <div className="community-organizations">
       <div className="community-organizations-left-name">Lidmaatschappen</div>
       <div className="community-organizations-left-text">
-        Rosendin is een trots lid van verschillende nationale
-        brancheorganisaties en hun lokale afdelingen.
+        We zijn lid van verschillende nationale brancheorganisaties en hun
+        lokale afdelingen, wat ons helpt kennis te delen en professionele
+        standaarden te volgen.
       </div>
       <div className="community-organizations-body">
         {brands.map((brand) => (

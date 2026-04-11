@@ -157,8 +157,9 @@ const Affiliations = () => {
         <div className="company-affiliations-left">
           <div className="company-affiliations-left-name">Lidmaatschappen</div>
           <div className="company-affiliations-left-text">
-            Rosendin is een trots lid van verschillende nationale
-            brancheorganisaties en hun lokale afdelingen.
+            Wij maken deel uit van meerdere nationale en lokale
+            brancheorganisaties en zijn trots op deze samenwerking en
+            betrokkenheid.
           </div>
         </div>
         {/* right-block */}

@@ -1,27 +1,31 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 import './Slider.css'
+import { NavLink } from 'react-router-dom'
 
 const SliderForPortfolio = () => {
   const [activeButton, setActiveButton] = useState(0)
   const [items, setItems] = useState([
     {
       id: 1,
-      filename: `${process.env.PUBLIC_URL}/src/image_4.jpg`,
+      filename: `${process.env.PUBLIC_URL}/src/projects/project_2/1.jpg`,
       title: 'Первый элемент',
-      description: '10th & O Street Capitol Annex Swing Space',
+      description: 'Boudewijn',
+      linkSite: '/my-education-site/boudewijn',
     },
     {
       id: 2,
-      filename: `${process.env.PUBLIC_URL}/src/image_5.jpg`,
+      filename: `${process.env.PUBLIC_URL}/src/projects/project_3/1.jpg`,
       title: 'Второй элемент',
-      description: '110 East',
+      description: 'Potter',
+      linkSite: '/my-education-site/potter',
     },
     {
       id: 3,
-      filename: `${process.env.PUBLIC_URL}/src/image_6.jpg`,
+      filename: `${process.env.PUBLIC_URL}/src/projects/project_1/Lescluzestraat_1.jpg`,
       title: 'Третий элемент',
-      description: '803 Waimanu',
+      description: 'Lescluzestraat',
+      linkSite: '/my-education-site/oogststraat',
     },
   ])
 
@@ -39,9 +43,9 @@ const SliderForPortfolio = () => {
               <div className="portfolio-slider-layer_1-name">
                 {item.description}
               </div>
-              <div className="portfolio-slider-layer_1-button">
+              <NavLink to={item.linkSite} className="portfolio-slider-layer_1-button">
                 VIEW PROJECT
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>

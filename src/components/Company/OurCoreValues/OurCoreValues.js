@@ -9,13 +9,13 @@ const OurCoreValues = () => {
     {
       id: 1,
       title: ['We', 'Innoveren'],
-      text: 'Mensen zullen ons herinneren om de oplossingen die we bieden. Ondernemende ideeën worden aangemoedigd om voortdurend de industrienormen te verhogen.',
+      text: 'Men zal ons herinneren voor de praktische en doeltreffende oplossingen die wij bieden. Durfvolle ideeën worden aangemoedigd om voortdurend de industrienormen te verbeteren.',
       backgroundColor: 'rgb(255, 163, 0)',
     },
     {
       id: 2,
       title: ['We', 'Uitblinken'],
-      text: 'De kwaliteit van ons werk zal ons jarenlang vertegenwoordigen. We zijn trots op wat we bouwen. Het is ons nalatenschap.',
+      text: 'De kwaliteit van ons werk spreekt voor zich gedurende vele jaren. We zijn trots op wat we realiseren en laten een blijvende erfenis achter.',
       backgroundColor: 'rgb(0, 61, 165)',
     },
   ]

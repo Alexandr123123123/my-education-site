@@ -8,31 +8,31 @@ const CoreServices = () => {
     {
       id: 1,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
-      title: 'Bouw Informatie Modellering',
+      title: 'Innovatieve Projectaanpak',
       description:
-        'Meer dan 220 fulltime coördinatoren, modelleurs en detailleurs die projecten uitvoeren in de Verenigde Staten en daarbuiten.',
+        'Wij gebruiken moderne bouwmethodes en digitale tools om projecten efficiënter, transparanter en sneller te realiseren.',
     },
     {
       id: 2,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
-      title: 'Techniek',
+      title: 'Digitale Samenwerking',
       description:
-        'Meer dan 80 interne engineering- en technische professionals die zorgen voor het succes van projectuitvoering.',
+        'Via 3D-modellen, virtuele rondleidingen en real-time updates betrekken we klanten actief bij elke stap van het project.',
     },
     {
       id: 3,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/office.jpg`,
-      title: 'Instrumentatie en Besturing',
+      title: 'Duurzame Innovaties',
       description:
-        'Een toegewijd team dat werkt aan het identificeren en ontwikkelen van de beste oplossingen voor unieke klantbehoeften.',
+        'Wij integreren energie-efficiënte oplossingen en hernieuwbare technologieën om huizen toekomstbestendig te maken.',
     },
 
     {
       id: 4,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
-      title: 'Service en Onderhoud',
+      title: 'Kwaliteit & Veiligheid',
       description:
-        'Een volledig uitgeruste servicevloot die 24/7/365 noodhulp biedt om ervoor te zorgen dat klanten continu operationeel blijven voor hun dagelijkse activiteiten.',
+        'Strikte kwaliteitscontrole, veiligheidsnormen en professionele vakmensen zorgen voor een zorgeloos bouwproces.',
     },
   ])
 
@@ -40,11 +40,11 @@ const CoreServices = () => {
     <div className="what-we-do-core-services">
       <div className="what-we-do-core-services-top-element"></div>
       <div className="what-we-do-core-services-description">
-        <div className="what-we-do-core-services-name">Kernservices</div>
+        <div className="what-we-do-core-services-name">Slim Bouwen</div>
         <div className="what-we-do-core-services-slogan">
-          Altijd een innovator, Rosendin bestudeert, ontwikkelt en omarmt
-          voortdurend nieuwe technologieën en integreert deze in alles wat we
-          doen.
+          Wij combineren moderne technologieën, duurzame oplossingen en
+          persoonlijke begeleiding om elk huis efficiënt, veilig en
+          toekomstbestendig te bouwen.
         </div>
       </div>
       <div className="what-we-do-core-services-cards-block-container">

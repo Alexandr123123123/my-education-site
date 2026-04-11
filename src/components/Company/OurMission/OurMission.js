@@ -8,27 +8,26 @@ const OurMission = () => {
       <div className="company-our-mission-body">
         {/* left */}
         <div className="company-our-mission-left">
-          <div className="company-our-mission-left-name">
-            Onze Missie
-          </div>
+          <div className="company-our-mission-left-name">Onze Missie</div>
         </div>
         {/* right */}
         <div className="company-our-mission-right">
           <div class="company-our-mission-right-slogan-block">
-            <div>BOUWKWALITEIT.</div>
-            <div>BOUWWAARDE.</div>
+            <div>BOUWKwaliteit.</div>
+            <div>WAARDE IN ELK PROJECT.</div>
             <div class="company-our-mission-right-slogan-block-orange-item">
-              MENSEN BOUWEN.
+              RUIMTES DIE LEVEN.
             </div>
           </div>
           <div className="company-our-mission-right-text">
-            SFO heeft Terminal 1 herontwikkeld tot de Harvey Milk Terminal om te
-            voldoen aan de behoeften van de moderne reiziger en de gastervaring
-            te revolutioneren. Harvey Milk Terminal 1 verhoogt SFO’s standaard
-            in het bieden van een reiservaring van wereldklasse die
-            milieuvriendelijk is en zal naar verwachting voldoen aan of zelfs de
-            bekroonde milieunormen van Terminal 2 en Terminal 3 Boarding Area E
-            overtreffen.
+            Wij transformeren woningen en ruimtes om te voldoen aan de eisen van
+            modern comfort en функциональность. Door renovatie en technische
+            oplossingen te combineren, creëren wij omgevingen die niet alleen
+            esthetisch aantrekkelijk zijn, maar ook duurzaam en praktisch in
+            gebruik. Onze aanpak verhoogt de standaard van wonen door kwaliteit,
+            veiligheid en efficiëntie centraal te stellen. Elk project wordt
+            uitgevoerd met aandacht voor detail en met respect voor zowel de
+            ruimte als de mensen die erin leven.
           </div>
         </div>
         {/*  */}

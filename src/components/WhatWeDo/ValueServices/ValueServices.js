@@ -8,34 +8,34 @@ const ValueServices = () => {
     {
       id: 1,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
-      title: 'Ontwerp-ondersteuning',
+      title: 'Intake & Advies',
       description:
-        'Diepgaande expertise die ervoor zorgt dat alle inzichten met betrekking tot de ontwerpintentie van elektrische systemen duidelijk aan alle partijen worden gecommuniceerd.',
+        'Wij luisteren naar uw wensen en geven professioneel advies over oplossingen en mogelijkheden.',
       background: 'green',
     },
     {
       id: 2,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
-      title: 'Design-Build',
+      title: 'Ontwerp & Planning',
       description:
-        'Meer dan 50 jaar ervaring in het bedienen van een divers klantenportfolio dankzij deskundige kennis en een sterke focus op innovatie.',
+        'Gedetailleerde plannen, 3D-modellen en tijdlijnen zorgen voor duidelijkheid en transparantie.',
       background: 'red',
     },
     {
       id: 3,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/office.jpg`,
-      title: 'Geïntegreerde projectrealisatie',
+      title: 'Uitvoering',
       description:
-        'Rosendin gelooft dat het succes van IPD afhangt van de mensen die het project realiseren, niet van de hulpmiddelen.',
+        'Onze vakmensen realiseren het project volgens plan met regelmatige updates.',
       background: 'red',
     },
 
     {
       id: 4,
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
-      title: 'Prefabricatie',
+      title: 'Oplevering & Nazorg',
       description:
-        'Een grondige verkenning van hoe en waar prefabricatie de productiviteit van het project, de planning, de arbeidskosten en de efficiëntie van afval kan beïnvloeden.',
+        'Controle van elk detail en ondersteuning na oplevering voor een tevreden klant.',
       background: 'green',
     },
   ])
@@ -61,14 +61,13 @@ const ValueServices = () => {
   return (
     <div className="what-we-do-value-services">
       <div className="what-we-do-value-services-description">
-        <div className="what-we-do-value-services-name">Kernservices</div>
+        <div className="what-we-do-value-services-name">Hoe Wij Werken</div>
         <div className="what-we-do-value-services-slogan">
-          Altijd een innovator, Rosendin bestudeert, ontwikkelt en omarmt
-          voortdurend nieuwe technologieën en integreert deze in alles wat we
-          doen.
+          Van eerste idee tot oplevering – wij begeleiden u stap voor stap voor
+          een zorgeloos bouwproces.
         </div>
       </div>
-      <div className='what-we-do-value-services-cards-container'>
+      <div className="what-we-do-value-services-cards-container">
         <div className="what-we-do-value-services-cards">
           {items.map((item, index) => (
             <ValueServiceCard

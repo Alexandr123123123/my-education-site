@@ -13,13 +13,14 @@ const SuccessIsShared = () => {
           Toegewijd. Verbonden. Betrokken.
         </div>
         <div className="success-is-shared-body-text">
-          Sinds onze oprichting wordt Rosendin gedreven om een positieve impact
-          te hebben op de gemeenschappen waar we wonen en werken. Door een
-          cultuur die wordt gemotiveerd door prestaties, competentie en gedeeld
-          eigenaarschap, begrijpen onze teams hun waarde en voeren ze uit met
-          verantwoordelijkheid, aansprakelijkheid en trots. Ons succes wordt
-          aangedreven door een “alles op alles” mentaliteit, wat op zijn beurt
-          het succes van de klant garandeert.
+          Vanaf het begin zijn wij gericht op het creëren van waarde voor de
+          mensen en ruimtes waarin wij werken. Wij realiseren renovatie- en
+          technische projecten die bijdragen aan comfort, veiligheid en
+          duurzaamheid. Dankzij een cultuur van verantwoordelijkheid,
+          vakmanschap en samenwerking begrijpen onze teams hun rol en voeren zij
+          hun werk uit met precisie en betrokkenheid. Ons succes wordt gedreven
+          door een “alles geven” mentaliteit — een aanpak die direct bijdraagt
+          aan het succes van onze klanten.
         </div>
         <button className="success-is-shared-body-button">
           WAAROM ROSENDIN

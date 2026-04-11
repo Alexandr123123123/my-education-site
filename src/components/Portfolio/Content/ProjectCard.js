@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
         <img src={props.projectPhoto} alt="abc"></img>
       </div>
       {/* description */}
-      <div className="portfolio-project-card-name">{props.projectName}</div>
+      <NavLink to={props.linkSite} className="portfolio-project-card-name">{props.projectName}</NavLink>
       <div className="portfolio-project-card-text">
         {props.text}
         <br></br>

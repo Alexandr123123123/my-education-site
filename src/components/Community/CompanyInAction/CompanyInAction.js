@@ -9,20 +9,20 @@ const CompanyInAction = () => {
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        'Being a 100% employee-owned company, that just goes to show you how employee-focused the company is.',
+        'Bekijk hoe ons team de handen uit de mouwen steekt en lokale gemeenschapsprojecten ondersteunt, van renovaties tot buurtinitiatieven.',
     },
     {
       id: 2,
       title: 'Bouwen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
-      description: '“Great Company to work for. A lot of room for growth.”',
+      description: 'Ons personeel deelt kennis en ervaring door workshops en mentorprogramma’s voor jongeren en nieuwe professionals in de bouwsector.',
     },
     {
       id: 3,
       title: 'Programmeren & Inbedrijfstelling',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/office.jpg`,
       description:
-        'Everyone is so welcoming and they try to train well/ The ESOP is great and overall a place to call family.',
+        'Ontdek hoe we bijdragen aan duurzame en innovatieve projecten die een positieve impact hebben op de gemeenschap en het milieu.',
     },
   ])
 

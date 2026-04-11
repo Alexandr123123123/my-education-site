@@ -50,8 +50,16 @@
   padding: 20px 25px 20px 25px;
   font-size: 12px;
   font-weight: bold;
+  text-decoration: none;
+  /* cursor: pointer; */
   color: white;
   background-color: rgb(255, 163, 0);
+}
+
+.portfolio-slider-layer_1-button:hover {
+  cursor: pointer;
+  color: rgb(255, 163, 0);
+  background-color: white;
 }
 
 /* buttons-block */

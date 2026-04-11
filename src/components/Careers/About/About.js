@@ -8,30 +8,26 @@ const About = () => {
     <div className="careers-about">
       <div className="careers-about-body">
         <Navigation />
-        <div className="careers-about-body-slogan">
-          Je maakt hier deel uit van iets
-        </div>
+        <div className="careers-about-body-slogan">Word deel van iets</div>
         <div className="careers-about-body-title">
-          Je maakt hier deel uit van iets groters
+          Word deel van iets groters
         </div>
         <div className="careers-about-body-text-1">
-          Ons succes is geworteld in onze mensen. We komen allemaal samen rond
-          een langetermijnvisie en een gevoel van gedeeld eigenaarschap. Als
-          groep doen we alles wat nodig is om het succes van ons bedrijf… en
-          jouw carrière te waarborgen.
+          Ons succes wordt gedragen door onze mensen. We worden verbonden door
+          een gezamenlijke visie op de toekomst en een gedeeld
+          verantwoordelijkheidsgevoel. Samen doen we er alles aan om de groei
+          van ons bedrijf… en jouw carrière te ondersteunen.
         </div>
         <div className="careers-about-body-text-2">
-          De veiligheid van de medewerkers, klanten, partners en leden van de
-          gemeenschap van Rosendin is een waarde die al meer dan 100 jaar deel
-          uitmaakt van onze geschiedenis. In het hart van wat we doen ligt onze
-          kernwaarde: We Care. Deze kernwaarde is gebaseerd op integriteit en
-          het creëren van een omgeving waarin onze mensen in staat worden
-          gesteld veilig te werken, het beste van zichzelf te laten zien en
-          elkaar te respecteren. Rosendin zet zich in voor een onverzettelijke
-          focus op Zorg, Delen, Luisteren, Innoveren en Uitblinken.
+          De veiligheid van medewerkers, klanten, partners en de gemeenschap is
+          een van onze kernwaarden. De basis van ons werk is het principe We
+          Care. Dit weerspiegelt onze toewijding aan integriteit en het creëren
+          van een omgeving waarin iedereen veilig kan werken, zich kan
+          ontwikkelen en elkaar respecteert. We bouwen aan een cultuur van zorg,
+          samenwerking, aandacht, innovatie en kwaliteit in alles wat we doen.
         </div>
         <button className="careers-about-body-button">
-          Openstaande Posities
+          Openstaande vacatures
         </button>
       </div>
       <PhotoAndQuickFacts />

@@ -1,20 +1,20 @@
-.slider-for-capitol-annex {
+.project-project-elements-slider-for-project {
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   z-index: 1000;
   background-color: black;
 }
 
-.slider-for-capitol-annex img {
+.project-project-elements-slider-for-project img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.button {
+.project-project-elements-slider-for-project-button {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -25,11 +25,11 @@
   mask: url('../../../assets/close.svg') no-repeat center / contain;
 }
 
-.button:hover {
+.project-project-elements-slider-for-project-button:hover {
   background-color: rgb(255, 163, 0);
 }
 
-.button_1 {
+.project-project-elements-slider-for-project-button_1 {
   width: 25px;
   height: 25px;
   position: absolute;
@@ -41,11 +41,11 @@
   background-color: white;
 }
 
-.button_1:hover {
+.project-project-elements-slider-for-project-button_1:hover {
   background-color: rgb(255, 163, 0);
 }
 
-.button_2 {
+.project-project-elements-slider-for-project-button_2 {
   width: 25px;
   height: 25px;
   position: absolute;
@@ -57,6 +57,6 @@
   background-color: white;
 }
 
-.button_2:hover {
+.project-project-elements-slider-for-project-button_2:hover {
   background-color: rgb(255, 163, 0);
 }

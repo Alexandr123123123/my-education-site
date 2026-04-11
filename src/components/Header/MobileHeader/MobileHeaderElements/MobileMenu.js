@@ -20,29 +20,28 @@ function MobileMenu() {
 
   //   return () => window.removeEventListener('scroll', handleScroll)
   // }, [])
-
   return (
     <div className="mobile-menu">
       <NavLink to="/my-education-site/company" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        COMPANY
+        BEDRIJF
       </NavLink>
       <NavLink to="/my-education-site/what-we-do" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        WHAT WE DO
+        WAT WIJ DOEN
       </NavLink>
       <NavLink to="/my-education-site/portfolio" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        PORTFOLIO
+        PROJECTEN
       </NavLink>
       <NavLink to="/my-education-site/careers" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        CAREERS
+        CARRIÈRE
       </NavLink>
       <NavLink to="/my-education-site/community" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        COMMUNITY
+        GEMEENSCHAP
       </NavLink>
       <NavLink to="/my-education-site/newsroom" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        NEWSROOM
+        NIEUWS
       </NavLink>
       <NavLink to="/my-education-site/contact-us" className="mobile-menu-item" onClick={()=> setActiveMenu(false)}>
-        CONTACT US
+        CONTACT
       </NavLink>
     </div>
   )

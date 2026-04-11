@@ -10,15 +10,16 @@ const HistoryTwo = () => {
           <div className="landing-history-two-content-container">
             <div className="landing-history-two-content-block">
               <div className="landing-history-two-name-content-block">
-                03. 100 JAAR ROSENDIN
+                03. ERVARING EN VAKMANSCHAP
               </div>
               <div className="landing-history-two-content-block-title">
-                Rosendin viert 100-jarig jubileum
+                Sterke basis voor elk project
               </div>
               <div className="landing-history-two-content-block-body">
-                Wij heffen het glas op 100 jaar zakelijk en klantensucces, een
-                mensgerichte cultuur en de voortdurende evolutie van ons
-                dienstenaanbod.
+                Wij beschikken over brede ervaring in renovatie en technische
+                werkzaamheden. Met een professionele aanpak en oog voor detail
+                realiseren wij betrouwbare en duurzame oplossingen waarop u kunt
+                vertrouwen.
               </div>
               <button className="landing-history-two-content-block-button">
                 MEER WETEN

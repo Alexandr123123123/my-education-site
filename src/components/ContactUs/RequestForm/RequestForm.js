@@ -16,12 +16,12 @@ const RequestForm = () => {
         {/* left */}
         <div className="contact-request-form-body-left">
           <div className="contact-request-form-body-left-name">
-            Request For Information
+            Informatieverzoek
           </div>
           <div className="contact-request-form-body-left-text">
-            For more information on Rosendin and how we can meet your needs,
-            please fill out the form below and someone will respond to your
-            inquiry within 24 hours.
+            Wilt u meer weten over onze diensten en samenwerkingsmogelijkheden?
+            Vul dan het onderstaande formulier in en wij nemen binnen 24 uur
+            contact met u op.
           </div>
         </div>
         {/* right */}

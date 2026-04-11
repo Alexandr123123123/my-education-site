@@ -8,51 +8,58 @@ const Content = () => {
     {
       id: 1,
       projectName: '110 East',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_6.jpg`,
+      projectPhoto: `${process.env.PUBLIC_URL}/src/project/image_6.jpg`,
       text: 'Stiles | Shorenstein',
       location: 'Charlotte, NC',
+      linkSite: '/my-education-site/110-east',
     },
     {
       id: 2,
-      projectName: '803 Waimanu',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_7.jpg`,
+      projectName: 'Lescluzestraat',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_1/Lescluzestraat_1.jpg`,
       text: 'Coastal Rim Properties',
       location: 'Honolulu, HI',
+      linkSite: '/my-education-site/lescluzestraat',
     },
     {
       id: 3,
-      projectName: 'ABIA Consolidated Maintenance Facility',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_8.jpg`,
+      projectName: 'Boudewijn',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_2/1.jpg`,
       text: 'Austin Bergstrom International Airport',
       location: 'Austin, TX',
+      linkSite: '/my-education-site/boudewijn',
     },
     {
       id: 4,
-      projectName: 'Aegis Ashore Pacific Missile Range Facility',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_9.jpg`,
+      projectName: 'Edegem',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_3/1.jpg`,
       text: 'Naval Facilities Engineering Command (NAVFAC)',
       location: 'Kekaha, HI',
+      linkSite: '/my-education-site/edegem',
     },
     {
       id: 5,
-      projectName: 'Aktina Renewable Power Project',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_10.jpg`,
+      projectName: 'Potter',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_4/1.jpg`,
       text: 'Tokyo Gas America, Ltd.',
       location: 'Wharton County, TX',
+      linkSite: '/my-education-site/potter',
     },
     {
       id: 6,
-      projectName: 'Alameda County Juvenile Justice Center',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_11.jpg`,
+      projectName: 'Heideland',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_5/1.jpg`,
       text: 'Alameda County',
       location: 'San Leandro, CA',
+      linkSite: '/my-education-site/heideland',
     },
     {
       id: 7,
-      projectName: 'Anaheim Convention Center Grand Plaza',
-      projectPhoto: `${process.env.PUBLIC_URL}/src/image_12.jpg`,
+      projectName: 'Oogststraat',
+      projectPhoto: `${process.env.PUBLIC_URL}/src/projects/project_6/1.jpg`,
       text: 'City of Anaheim',
       location: 'Anaheim, CA',
+      linkSite: '/my-education-site/oogststraat',
     },
   ])
 
@@ -66,6 +73,7 @@ const Content = () => {
               projectPhoto={projectCard.projectPhoto}
               text={projectCard.text}
               location={projectCard.location}
+              linkSite={projectCard.linkSite}
             />
           ))}
         </div>

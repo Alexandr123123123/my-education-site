@@ -12,72 +12,72 @@ const CareerPathsBody_1 = () => {
       filename: `${process.env.PUBLIC_URL}/src/workers/president_1.jpg`,
       name: 'Afgestudeerde',
       description:
-        'For new graduates, we offer full-time entry-level positions to begin a career in the electrical construction industry. Learn how to become an employee-owner and grow in an organization where personal development is our priority.',
+        'Wij bieden afgestudeerden startersfuncties om een carrière in de bouw- en renovatiesector te beginnen. Je wordt deel van ons team en krijgt de kans om te groeien in een bedrijf waar professionele en persoonlijke ontwikkeling centraal staan.',
     },
     {
       id: 2,
       filename: `${process.env.PUBLIC_URL}/src/workers/president_2.jpg`,
       name: 'Stagiair',
       description:
-        'For new graduates, we offer full-time entry-level positions to begin a career in the electrical construction industry. Learn how to become an employee-owner and grow in an organization where personal development is our priority.',
+        'Begin je carrière in de bouw met een waardevolle stage bij ons team. Je krijgt de kans om praktijkervaring op te doen, betrokken te zijn bij echte projecten en je vaardigheden te ontwikkelen in een professionele en ondersteunende omgeving.',
     },
     {
       id: 3,
       filename: `${process.env.PUBLIC_URL}/src/workers/president_3.jpg`,
       name: 'Vakbekwaam',
       description:
-        'For new graduates, we offer full-time entry-level positions to begin a career in the electrical construction industry. Learn how to become an employee-owner and grow in an organization where personal development is our priority.',
+        'Word onderdeel van ons team van hooggekwalificeerde vakmensen en werk aan uitdagende bouw- en renovatieprojecten. Gebruik uw expertise om kwaliteit te leveren, uzelf verder te ontwikkelen en impact te maken in een professioneel en ondersteunend team.',
     },
     {
       id: 4,
       filename: `${process.env.PUBLIC_URL}/src/workers/president_4.jpg`,
       name: 'Professional',
       description:
-        'For new graduates, we offer full-time entry-level positions to begin a career in the electrical construction industry. Learn how to become an employee-owner and grow in an organization where personal development is our priority.',
+        'Sluit je aan bij ons team van ervaren professionals en werk aan uitdagende bouw- en renovatieprojecten. Breng je expertise in, lever topkwaliteit en ontwikkel jezelf verder in een stimulerende en ondersteunende werkomgeving.',
     },
   ])
 
   const [activeWorker, setActiveWorker] = useState(10)
   return (
-      <div className="careers-career-paths-body_1">
-        {/* left */}
-        <div className="careers-career-paths-body_1-left">
-          <CareerPathsBodyCard
-            workers={workers[0]}
-            setWorkers={setWorkers}
-            activeWorker={activeWorker}
-            setActiveWorker={setActiveWorker}
-            id={0}
-          />
-          <CareerPathsBodyCard
-            workers={workers[1]}
-            setWorkers={setWorkers}
-            activeWorker={activeWorker}
-            setActiveWorker={setActiveWorker}
-            id={1}
-          />
-        </div>
-        {/* center */}
-        <CareerPathsBodyCardCenter/>
-        {/* right */}
-        <div className="careers-career-paths-body_1-right">
-          <CareerPathsBodyCard
-            workers={workers[2]}
-            setWorkers={setWorkers}
-            activeWorker={activeWorker}
-            setActiveWorker={setActiveWorker}
-            id={2}
-          />
-          <CareerPathsBodyCard
-            workers={workers[3]}
-            setWorkers={setWorkers}
-            activeWorker={activeWorker}
-            setActiveWorker={setActiveWorker}
-            id={3}
-          />
-        </div>
-        {/*  */}
+    <div className="careers-career-paths-body_1">
+      {/* left */}
+      <div className="careers-career-paths-body_1-left">
+        <CareerPathsBodyCard
+          workers={workers[0]}
+          setWorkers={setWorkers}
+          activeWorker={activeWorker}
+          setActiveWorker={setActiveWorker}
+          id={0}
+        />
+        <CareerPathsBodyCard
+          workers={workers[1]}
+          setWorkers={setWorkers}
+          activeWorker={activeWorker}
+          setActiveWorker={setActiveWorker}
+          id={1}
+        />
       </div>
+      {/* center */}
+      <CareerPathsBodyCardCenter />
+      {/* right */}
+      <div className="careers-career-paths-body_1-right">
+        <CareerPathsBodyCard
+          workers={workers[2]}
+          setWorkers={setWorkers}
+          activeWorker={activeWorker}
+          setActiveWorker={setActiveWorker}
+          id={2}
+        />
+        <CareerPathsBodyCard
+          workers={workers[3]}
+          setWorkers={setWorkers}
+          activeWorker={activeWorker}
+          setActiveWorker={setActiveWorker}
+          id={3}
+        />
+      </div>
+      {/*  */}
+    </div>
   )
 }
 

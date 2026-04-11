@@ -23,12 +23,12 @@ const Foundation_1 = () => {
                 Impact. Versterk. Inspireer.
               </div>
               <div className="community-foundation_1-body-right-text">
-                De Rosendin Foundation (
+                Het fonds (
                 <span className="community-foundation_1-body-right-text-link">
                   www.therosendinfoundation.org
                 </span>
                 ) is opgericht om een positieve impact te hebben op
-                gemeenschappen, mensen te versterken en innovatie te inspireren.
+                gemeenschappen, mensen te versterken en innovatie te stimuleren.
               </div>
               <button className="community-foundation_1-body-right-bottom">
                 MEER WETEN

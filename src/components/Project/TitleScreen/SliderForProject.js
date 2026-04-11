@@ -1,6 +1,7 @@
 import React from 'react'
 import './SliderForProject.css'
 
+
 const SliderForProject = (props) => {
   const nextImage = () => {
     props.setActiveGallery(
@@ -14,10 +15,10 @@ const SliderForProject = (props) => {
     )
   }
   return (
-    <div className="slider-for-capitol-annex">
-      <div className="button" onClick={() => props.setActiveGallery(0)}></div>
-      <div className="button_1" onClick={nextImage}></div>
-      <div className="button_2" onClick={previousImage}></div>
+    <div className="project-project-elements-slider-for-project">
+      <div className="project-project-elements-slider-for-project-button" onClick={() => props.setActiveGallery(0)}></div>
+      <div className="project-project-elements-slider-for-project-button_1" onClick={nextImage}></div>
+      <div className="project-project-elements-slider-for-project-button_2" onClick={previousImage}></div>
       <img src={props.items[props.activeGallery - 1].filename} alt="abc"></img>
     </div>
   )

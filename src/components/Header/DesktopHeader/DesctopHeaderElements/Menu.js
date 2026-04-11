@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Menu.css'
 
 const Menu = () => {
+  
   return (
     <div className="menu">
       <NavLink
@@ -11,37 +12,37 @@ const Menu = () => {
           isActive ? 'menu-item-active' : 'menu-item'
         }
       >
-        COMPANY
+        BEDRIJF
       </NavLink>
       <NavLink to="/my-education-site/what-we-do" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        WHAT WE DO
+        WAT WIJ DOEN
       </NavLink>
       <NavLink to="/my-education-site/portfolio" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        PORTFOLIO
+        PROJECTEN
       </NavLink>
       <NavLink to="/my-education-site/careers" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        CAREERS
+        CARRIÈRE
       </NavLink>
       <NavLink to="/my-education-site/community" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        COMMUNITY
+        GEMEENSCHAP
       </NavLink>
       <NavLink to="/my-education-site/newsroom" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        NEWSROOM
+        NIEUWS
       </NavLink>
       <NavLink to="/my-education-site/contact-us" className={({ isActive }) =>
           isActive ? 'menu-item-active' : 'menu-item'
         }>
-        CONTACT US
+        CONTACT
       </NavLink>
     </div>
   )

@@ -10,13 +10,13 @@ const TextSlider = () => {
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        'Being a 100% employee-owned company, that just goes to show you how employee-focused the company is.',
+        'Het bedrijf is opgebouwd rond zijn medewerkers, wat duidelijk aantoont hoe sterk de focus ligt op mensen en hun ontwikkeling.',
     },
     {
       id: 2,
       title: 'Bouwen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
-      description: '“Great Company to work for. A lot of room for growth.”',
+      description: 'Een uitstekende plek om te werken met volop groeimogelijkheden.',
     },
     {
       id: 3,
@@ -30,75 +30,75 @@ const TextSlider = () => {
       title: 'Service / Dienstverlening',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
       description:
-        'Amazing intern program with great pay in a company full of growth and opportunities for thos with or without experience. Roseldin has a valuable culture they set forth and understandthe commitment it takes to recruit the best employees by giving those interested in the industry an opportunity to intern with them. The amount of knowledge and experience I obtained through their intern program, will be very valuable for me in my future career/.',
+        'Een uitstekende stageprogramma met een goede vergoeding in een bedrijf dat volop groeimogelijkheden biedt, zowel voor mensen met als zonder ervaring. Er wordt een sterke bedrijfscultuur opgebouwd en er wordt veel aandacht besteed aan het aantrekken van talent door geïnteresseerden de kans te geven om stage te lopen. De kennis en ervaring die ik via het stageprogramma heb opgedaan, zullen van grote waarde zijn voor mijn toekomstige carrière.',
     },
     {
       id: 5,
       title: 'Industrie certificeringen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/education.jpg`,
       description:
-        'Great Culture and Work-life balance/ Greate People and lost of projects. Retirement, Employee Stock is a plus. Benefits are great. Encourages Growth and Learning.',
+        'Een sterke bedrijfscultuur en een goede werk-privébalans. Een fijne werkomgeving met gemotiveerde collega’s en veel interessante projecten. Extra voordelen zoals pensioenregelingen en participatie voor medewerkers maken het geheel aantrekkelijk. Goede arbeidsvoorwaarden en volop aandacht voor groei en ontwikkeling.',
     },
     {
       id: 6,
       title: 'Service / Dienstverlening',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
       description:
-        'An Employee Owned Company that puts everything into Building people and relationships.',
+        'Een bedrijf dat draait om zijn medewerkers en sterk inzet op de ontwikkeling van mensen en het opbouwen van duurzame relaties.',
     },
     {
       id: 7,
       title: 'Industrie certificeringen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/education.jpg`,
       description:
-        'Large company, seeking intelligent projects, room to grow with-in the company as long as work is available. Various aspects of the electrical industry is a plus.',
+        'Een groot bedrijf met interessante projecten en doorgroeimogelijkheden binnen de organisatie, afhankelijk van de beschikbaarheid van werk. De diversiteit aan werkzaamheden binnen de sector is een extra pluspunt.',
     },
     {
       id: 8,
       title: 'Service / Dienstverlening',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/data-center.jpeg`,
       description:
-        'I have a great safety team in Maryland office. 1.Always willing to help 2.Push me to get better everyday. 3.Empowered to take cantrolof projects 4.They put value into interns (not just busy work being forced on me).',
+        'Ik werk met een uitstekend veiligheidsteam. 1) Altijd bereid om te helpen 2) Motiveren mij om elke dag beter te worden 3) Geven mij de kans om verantwoordelijkheid te nemen voor projecten 4) Hechten waarde aan stagiairs en geven hen echte ervaring in plaats van enkel routinewerk',
     },
     {
       id: 9,
       title: 'Industrie certificeringen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/education.jpg`,
-      description: 'ESOP, great work environment. Great people.',
+      description: 'ESOP, een prettige werkomgeving en fijne collega’s.',
     },
     {
       id: 10,
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        'Opportunities for professional growth, excellent pay, travel opportunities, focus on employee work balance.',
+        'Mogelijkheden voor professionele groei, uitstekend salaris, reisopties en aandacht voor een goede werk-privébalans.',
     },
     {
       id: 11,
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        'Greate Environment Coworkers and PM;s always willing to help Division Managers are extremely helpful.',
+        "Geweldige werkomgeving, collega's en projectmanagers staan altijd klaar om te helpen. Afdelingsmanagers bieden uitermate nuttige ondersteuning.",
     },
     {
       id: 12,
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        "Rosendin cares a lot about their employees and will provide amenities in the work place to make working there more enjoyable. Everyone's contributions are valued and there are many experienced workers to learn from. The work life balance is quite good compared to other companies.",
+        "Het bedrijf geeft veel om zijn medewerkers en biedt faciliteiten op de werkplek om het werken aangenamer te maken. Ieders bijdrage wordt gewaardeerd en er zijn veel ervaren collega's van wie je kunt leren. De werk-privébalans is hier behoorlijk goed vergeleken met andere bedrijven.",
     },
     {
       id: 13,
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        'Rosendin is a wonderful place to work. The people I have worked with have all been very kind, patient, and informative. From my boss to my coworkers, everyone has taken the time to to really teack me what I needed to know. As long as you put in the effort to learn, people are willing to help you to be successful.',
+        "Het is een geweldige plek om te werken. De mensen met wie ik heb samengewerkt zijn allemaal vriendelijk, geduldig en behulpzaam geweest. Van mijn leidinggevende tot mijn collega's, iedereen heeft de tijd genomen om me echt te leren wat ik moest weten. Als je bereid bent om te leren, staan mensen altijd klaar om je te helpen succesvol te zijn.",
     },
     {
       id: 14,
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
-      description: 'Friendly. Good Benefits. Advancement oppotrunities.',
+      description: 'Vriendelijke werkomgeving, goede voordelen en doorgroeimogelijkheden.',
     },
   ])
 
@@ -141,7 +141,7 @@ const TextSlider = () => {
             {/* learn-more */}
             <div className="careers-text-slider-body-learn-more">
               <div className="careers-text-slider-learn-more-text">
-                Visit us on glassdoor
+                Bezoek ons op Glassdoor
               </div>
               <div className="careers-text-slider-learn-more-arrow"></div>
             </div>

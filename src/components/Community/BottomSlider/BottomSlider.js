@@ -10,7 +10,7 @@ const BottomSlider = () => {
       title: 'Ontwerp',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/visual-system.jpg`,
       description:
-        '“We’ve had a great partnership with Rosendin on our School-to-Career program which is bringing students into the workplace so they have an authentic experience. It’s [all] about businesses being able to open their doors and let students have that opportunity and Rosendin has been great about that.”',
+        '“Wij zetten ons actief in voor lokale gemeenschapsprojecten en initiatieven, van renovaties van openbare ruimtes tot ondersteuning van buurtactiviteiten en sociale programma’s. Ons team werkt samen met organisaties om een tastbare en blijvende impact te maken, waardoor de leefomgeving voor iedereen aangenamer en veiliger wordt.”',
       name: 'Deanna Palm, President',
       position: 'Hillsboro Chamber of Commerce',
     },
@@ -19,7 +19,7 @@ const BottomSlider = () => {
       title: 'Bouwen',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/pharma.jpg`,
       description:
-        '“When you’re able to have people actually have the mindset, ideas, and ability to say this is where we’ve been, this is where we are now, and this is where we’ll be in the future, it helps make it better for everyone involved to feel comfortable saying this is not only a partnership that we’re having right now but for the foreseeable future and the benefits are not only for the people that work for Rosendin but the community in general.”',
+        '“Door middel van workshops, stages en mentorprogramma’s investeren we in de toekomst van jongeren en nieuwe professionals in de bouwsector. We delen onze kennis, vaardigheden en ervaring zodat zij waardevolle inzichten en praktische ervaring opdoen, wat hen helpt om zelfverzekerd en goed voorbereid hun carrière te starten.”',
       name: 'Rudy Metayer, City Councilmember',
       position: 'City of Pflugerville',
     },
@@ -28,7 +28,7 @@ const BottomSlider = () => {
       title: 'Programmeren & Inbedrijfstelling',
       filename: `${process.env.PUBLIC_URL}/src/market-sectors/office.jpg`,
       description:
-        '“Junior Achievement exists to prepare students for their future. Each year we teach over 83,000 low-income students work readiness skills, entrepreneurship skills, and financial literacy. Rosendin became involved 20 years ago beginning with our annual golf tournament and in 2011 they sponsored a shop in BizTown and are still a sponsor today. In 2014, Rosendin brought on a Board Member for Junior Achievement and started a Bowl-a-Thon fundraiser. To date, Rosendin has helped us support over 100,000 students in Arizona.”',
+        '“Wij nemen deel aan milieuvriendelijke en innovatieve projecten die bijdragen aan een duurzamere samenleving. Door onze middelen, kennis en creativiteit in te zetten, zorgen we dat deze projecten een blijvend positief effect hebben op de gemeenschap en het milieu, en tegelijkertijd laten we zien hoe innovatie en duurzaamheid hand in hand kunnen gaan in de bouwsector.”',
       name: 'Bri Tournas',
       position: 'Junior Achievement',
     },

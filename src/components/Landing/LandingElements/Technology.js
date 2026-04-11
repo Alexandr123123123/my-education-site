@@ -5,7 +5,7 @@ const Technology = () => {
   return (
     <div className="landing-technology">
       <div className="container">
-        <div className='landing-technology-color-filter'></div>
+        <div className="landing-technology-color-filter"></div>
         <div className="landing-technology-content-container">
           <div className="landing-technology-content-image">
             <img
@@ -15,21 +15,22 @@ const Technology = () => {
           </div>
           <div className="landing-technology-content-text">
             <div className="landing-technology-content-text-name-block">
-              02. Technologische Innovatie
+              02. MODERNE OPLOSSINGEN
             </div>
             <div className="landing-technology-content-text-title">
-              Een Innovatief Evenwicht
+              Innovatief en praktisch in balans
             </div>
             <div className="landing-technology-content-text-body">
-              Technologie blijft de manier waarop we werken en onze sector als
-              geheel transformeren. Onze teams moeten de behoefte aan innovatie
-              in evenwicht brengen met praktische kennis om projectstabiliteit
-              te waarborgen. Als marktleider in het ontwikkelen en implementeren
-              van nieuwe tools, trainingen en technologieën helpen wij onze
-              teams veiliger en efficiënter te werken. Tegelijkertijd blijven
-              wij trouw aan de gevestigde standaarden die de tand des tijds
-              hebben doorstaan. Deze doelgerichte combinatie van nieuwe en
-              beproefde technieken onderscheidt ons werkelijk van de rest.
+              Moderne technieken en oplossingen vormen de kern van hoe wij
+              renovatie- en technische projecten aanpakken. Onze teams
+              combineren de nieuwste methoden met praktische ervaring om
+              betrouwbare en duurzame resultaten te garanderen. Door innovatieve
+              tools, trainingsprogramma’s en efficiënte werkwijzen te
+              implementeren, zorgen wij ervoor dat projecten veiliger en sneller
+              worden uitgevoerd. Tegelijkertijd blijven wij trouw aan bewezen
+              standaarden die hun waarde in de praktijk hebben bewezen. Deze
+              combinatie van innovatie en betrouwbaarheid onderscheidt ons echt
+              in de sector.
             </div>
             <button className="landing-technology-content-text-bottom">
               MEER WETEN

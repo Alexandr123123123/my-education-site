@@ -56,6 +56,8 @@
   width: 800px;
   width: 70%;
   padding: 70px 0px 30px 0px;
+  font-weight: 100;
+  font-family: 'Roboto';
   color: white;
   background-color: rgb(255, 163, 0);
 }
