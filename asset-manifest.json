@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-education-site/static/css/main.a0749edf.css",
-    "main.js": "/my-education-site/static/js/main.1f3a0e10.js",
+    "main.css": "/my-education-site/static/css/main.468a4560.css",
+    "main.js": "/my-education-site/static/js/main.12b90539.js",
     "static/js/453.eebb8bdc.chunk.js": "/my-education-site/static/js/453.eebb8bdc.chunk.js",
     "static/media/worker-for-company.jpg": "/my-education-site/static/media/worker-for-company.f634100baa853a1dcae2.jpg",
     "static/media/video-system.jpg": "/my-education-site/static/media/video-system.a1baf87b230d35011d00.jpg",
@@ -10,7 +10,6 @@
     "static/media/contact.jpg": "/my-education-site/static/media/contact.9824f0ccb4ee64298fdc.jpg",
     "static/media/what-we-do.jpg": "/my-education-site/static/media/what-we-do.4dc221b1ba6d08c3974e.jpg",
     "static/media/newsroom.jpg": "/my-education-site/static/media/newsroom.c4336f074181613a6b8e.jpg",
-    "static/media/abc.jpg": "/my-education-site/static/media/abc.72d7840faa665af16645.jpg",
     "static/media/background.jpeg": "/my-education-site/static/media/background.b84f0c98ccff12a42f3c.jpeg",
     "static/media/arrow-right-circle.svg": "/my-education-site/static/media/arrow-right-circle.c5f8c71e5d32175a319a.svg",
     "static/media/siren.svg": "/my-education-site/static/media/siren.2b5b053740d579f9e77b.svg",
@@ -30,12 +29,12 @@
     "static/media/close.svg": "/my-education-site/static/media/close.0d1ad749f1882c9bae69.svg",
     "static/media/right_arrow.svg": "/my-education-site/static/media/right_arrow.a61a81adaf18ae8f9841.svg",
     "static/media/left_arrow.svg": "/my-education-site/static/media/left_arrow.25c7fb164adb7f4b5664.svg",
-    "main.a0749edf.css.map": "/my-education-site/static/css/main.a0749edf.css.map",
-    "main.1f3a0e10.js.map": "/my-education-site/static/js/main.1f3a0e10.js.map",
+    "main.468a4560.css.map": "/my-education-site/static/css/main.468a4560.css.map",
+    "main.12b90539.js.map": "/my-education-site/static/js/main.12b90539.js.map",
     "453.eebb8bdc.chunk.js.map": "/my-education-site/static/js/453.eebb8bdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0749edf.css",
-    "static/js/main.1f3a0e10.js"
+    "static/css/main.468a4560.css",
+    "static/js/main.12b90539.js"
   ]
 }
